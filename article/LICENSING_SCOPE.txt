@@ -1,0 +1,52 @@
+HV27 — FILE-LEVEL LICENSE SCOPE
+Author/licensor: Rushikesh Murlidhar Walke
+Applied for author-review preparation v08, 6 November 2026.
+
+CC BY 4.0 — ARTICLE AND SEPARATE DOCUMENTATION
+  HV27_Preprint_Review_v08.pdf (distributed alongside this supplement)
+  main.tex
+  LICENSE-CC-BY-4.0.txt (the author's notice, not ownership of CC legal text)
+  LICENSING_SCOPE.txt
+  anc/README.txt
+  anc/START_HERE_MR.txt
+  anc/validation/README_LICENSE.txt
+
+The article's .tex file is the manuscript/typesetting source and is covered
+by the article license. It is not part of the separately licensed research
+software. The CC license URI and full legal-code URI are in
+LICENSE-CC-BY-4.0.txt.
+
+MIT — ORIGINAL SUPPLEMENTARY SOFTWARE
+  anc/hv27_torus_counts.py
+  anc/run_hv27_checks.py
+  anc/RUN_HV27_WINDOWS.bat
+
+For these files, including their inline documentation, anc/LICENSE is the
+full MIT notice. Keep it with copies or substantial portions as required
+by MIT. Source bytes were preserved so the recorded runtime hashes still
+identify the same versions. Separate prose documentation listed above is
+CC BY 4.0 and is not assigned a second license by this scope file.
+
+VALIDATION REPORTS AND FILE HASHES
+  anc/validation/RESULTS.json
+  anc/validation/RESULTS.txt
+  SHA256SUMS.txt and anc/SHA256SUMS.txt, when distributed
+
+The numerical results, timestamps and hashes are factual records. No new
+exclusive right is asserted in mathematical facts or unprotected data.
+To the extent the author holds copyright or similar rights in original
+report text, selection or arrangement, those rights are licensed CC BY 4.0.
+Both supplied report files remain byte-for-byte unchanged; the sidecar
+anc/validation/README_LICENSE.txt records this scope without editing them.
+
+EXCLUSIONS AND INTERPRETATION
+The license scope does not relicense the author's separately published
+HV56 paper, cited third-party publications, external fonts, Python's
+standard library, TeX packages or other external dependencies. Their own
+rights and licenses remain applicable. No country, noncommercial or
+additional approval restriction has been added to either standard license.
+These grants cover only rights the licensor is authorized to grant; they
+do not assert ownership of underlying mathematical methods or facts.
+Internal ledgers and preparation records are not part of this public
+supplement selection. A license notice is not a claim of peer review,
+originality, public submission or assignment of a DOI.

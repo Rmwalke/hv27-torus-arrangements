@@ -1,0 +1,411 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+\usepackage{url}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={An Explicit GCD Evaluation for Three-Direction Torus Arrangements},pdfauthor={Rushikesh Murlidhar Walke},pdfsubject={AI-assisted expository note; author-review copy v08; CC BY 4.0; not peer-reviewed},pdfkeywords={toric arrangements, cyclic grids, Euler characteristic, arithmetic Tutte polynomial}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newcommand{\Torus}{\mathbb{R}^2/\mathbb{Z}^2}
+\title{An Explicit GCD Evaluation for Three-Direction Torus Arrangements}
+\author{Rushikesh Murlidhar Walke\\
+\small Independent Researcher, Maharashtra, India\\
+\small ORCID: \url{https://orcid.org/0009-0006-6749-5660}}
+\date{Author-review copy v08, 6 November 2026}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+\small AI-assisted expository note. Not peer-reviewed.
+\par\smallskip
+\footnotesize \copyright\ 2026 Rushikesh Murlidhar Walke.
+This article is licensed under
+\href{https://creativecommons.org/licenses/by/4.0/}{CC BY 4.0}.
+\par Original supplementary software: MIT License; see \path{anc/LICENSE}.
+\end{center}
+
+\begin{abstract}
+We explicitly evaluate established toric-arrangement counting principles
+for a family of closed curves on the two-dimensional torus. The vertical
+coordinates form the union of two common-origin cyclic grids of orders
+$N$ and $R$; the other two families are the level sets of $x+y$ and $x-y$
+on grids of orders $Y$ and $K$. A finite-group calculation gives the number
+of triple intersections, and a cellularity argument justifies the use of
+Euler's relation. For $R=12$, $Y=27$, and $K=60$, the face count is
+$87N+4248-84\gcd(N,12)-3\gcd(N,1080)$. In particular, it is $6264$ at
+$N=27$. The result concerns geometric faces and does not require a sampled
+trajectory or numerical experiment. We give an elementary proof and
+identify the same expression as an arithmetic-Tutte specialization.
+\end{abstract}
+
+\section{Relation to existing work}
+Chamber counting for toric arrangements is established theory.
+Ehrenborg, Readdy and Slone give a general count from the intersection
+poset under an open-ball hypothesis~\cite[Theorem 3.6]{ERS}.
+For two-dimensional arrangements, the identity
+$F=\sum_{j\geq2}(j-1)t_j$, with $t_j$ counting intersections of $j$ curves,
+appears in the preprint version of Chandrasekhar and
+Deshpande~\cite[Lemma 2.4]{CD}. Our $F=P-T$ is its double/triple-point case.
+Moci's arithmetic multiplicities and compact-torus chamber
+formula~\cite[Section 2.2, Lemma 5.4 and Corollary 5.16]{Moci}
+also yield the expression evaluated here.
+
+The purpose of this note is to display the gcd reduction for the specified
+common-origin grids, including duplicate vertical levels, and provide a
+self-contained proof and parameterized example. Neither Euler's relation
+nor a new general chamber-count principle is claimed as a contribution.
+The precise literature connections are made explicit below; finding no
+identical printed numerical example would not establish priority.
+
+The author's earlier expository note~\cite[pp. 2--5, Theorem 1 and
+Corollary 1]{Walke2026} counts pairs on finite cyclic grids subject to
+sum and difference constraints, using Smith normal form. Its formula
+specializes exactly to the triple-point count used here, as shown in
+Section~\ref{sec:earlier}. The present note adds the torus arrangement,
+the cellularity argument, and the passage from point incidences to
+geometric faces. The two notes therefore share a finite-grid counting
+component while counting different final objects. Neither note claims a
+new general counting theory.
+
+\section{Setup and scope}
+For a positive integer $m$, let
+\[
+ G_m=\{j/m+\mathbb Z:0\leq j<m\}\subset\mathbb R/\mathbb Z.
+\]
+All grids have origin zero; independently rotated grids are outside the
+stated assumptions. Fix positive integers $N,R,Y,K$. On $\Torus$ consider
+the curves
+\[
+ x=u\quad(u\in U:=G_N\cup G_R),\qquad
+ x+y=a\quad(a\in G_Y),\qquad
+ x-y=b\quad(b\in G_K),
+\]
+where equations are understood modulo one. A vertical curve occurring in
+both grids is included only once. Each individual curve is an embedded
+circle. Curves in the same family are disjoint, and curves from different
+families meet transversely.
+
+Vertices are distinct intersection points. Edges are the arcs between
+successive vertices on each curve, allowing a loop edge when there is only
+one vertex on a curve. Faces are connected components of the complement.
+Write their counts as $V,E,F$, and write $T$ for the number of points on
+three curves. There are no points on more than three distinct curves.
+
+The problem is one of combinatorial topology. Euler's relation below is
+the surface formula for a graph embedding, not the Euler equations of
+fluid mechanics. We make no claim here about orbital sampling, error
+detection, astronomical accuracy, or the number of distinct labels after
+a relabelling of the faces.
+
+\section{Face-count theorem}
+Put
+\[
+ g=\gcd(N,R),\quad v=N+R-g,\quad d=\gcd(Y,K),\quad
+ L=\operatorname{lcm}(Y,K),\quad P=v(Y+K)+2YK.
+\]
+
+\begin{theorem}\label{thm:main}
+For the arrangement just defined, every face is an open disk. Moreover,
+\begin{align}
+ T&=d\bigl(\gcd(N,2L)+\gcd(R,2L)-\gcd(g,2L)\bigr),\label{eq:triple}\\
+ V&=P-2T,\qquad E=2P-3T,\qquad F=P-T.\label{eq:counts}
+\end{align}
+These formulas hold for all positive integers $N,R,Y,K$.
+\end{theorem}
+
+\begin{lemma}\label{lem:triple}
+If the vertical family is a single grid $G_n$, its triple-point count is
+\[
+ TT(n;Y,K)=d\gcd(n,2L).
+\]
+\end{lemma}
+\begin{proof}
+The homomorphism
+\[
+ G_Y\times G_K\longrightarrow G_L,\qquad (a,b)\longmapsto a+b
+\]
+is surjective. Indeed, $L/Y=K/d$ and $L/K=Y/d$ are coprime, so Bezout's
+identity shows that $1/L$ belongs to $G_Y+G_K$. Thus this sum is $G_L$.
+Its kernel has size $YK/L=d$, so each element of $G_L$ has exactly
+$d$ preimages.
+
+A fixed vertical coordinate $u$ supports a triple point exactly when
+$a+b=2u$ for some $(a,b)\in G_Y\times G_K$. Each such pair gives the
+unique point $(u,a-u)$, and distinct pairs give distinct points at that
+vertical coordinate. Thus there are $d$ triple points at $u$ if
+$2u\in G_L$, and none otherwise. The condition $2u\in G_L$ is equivalent
+to $u\in G_{2L}$. Finally,
+$G_n\cap G_{2L}=G_{\gcd(n,2L)}$, which proves the claim.
+\end{proof}
+
+\begin{lemma}\label{lem:cellular}
+The faces of the arrangement are open disks.
+\end{lemma}
+\begin{proof}
+Lift all the curves to affine lines in $\mathbb R^2$. Each chamber of the
+lifted complement is an intersection of open strips, hence is convex.
+In particular it lies between two consecutive vertical lines and between
+two consecutive lines of the form $x+y=\text{constant}$. These two strip
+directions are independent, so the chamber is bounded. The line
+arrangement is locally finite, so each chamber is a bounded convex open
+polygon and is homeomorphic to an open disk.
+
+If a chamber intersects one of its integer translates, the two are the
+same connected component of the lifted complement. A nonzero translation
+cannot preserve a bounded nonempty chamber. Consequently the covering
+projection identifies no two points of its interior. Its image is a
+whole component of the torus complement: a path in that component lifts
+to a path remaining in the chamber. Thus each face is homeomorphic to a
+lifted chamber. Boundary identifications can occur and do not invalidate
+cellularity of this graph embedding.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+Since $G_N\cap G_R=G_g$, there are $v$ distinct vertical curves. A vertical
+curve meets each sum curve once and each difference curve once. A pair
+$x+y=a$, $x-y=b$ has exactly two solutions: the equation $2x=a+b$ has
+two roots modulo one, and each root determines $y$. Therefore the total
+pairwise intersection count, with multiplicity, is $P$.
+
+Apply Lemma~\ref{lem:triple} to $G_N$, $G_R$, and their intersection $G_g$.
+Inclusion--exclusion gives equation~\eqref{eq:triple}. If $D$ denotes
+the number of double points, then $P=D+3T$ and $V=D+T$, giving
+$V=P-2T$.
+
+Double and triple vertices have degrees four and six respectively. Every
+curve has a vertex because the other two families are nonempty. The
+degree sum, counting a loop twice, gives
+$2E=4D+6T$, hence $E=2P-3T$. Lemma~\ref{lem:cellular} makes this a finite
+cellular embedding on the torus. Euler's relation $V-E+F=0$ now gives
+$F=E-V=P-T$.
+\end{proof}
+
+\section{Connection with the earlier cyclic-grid note}\label{sec:earlier}
+For comparison with~\cite[Eq. (1)]{Walke2026}, write
+\[
+ C(a,b;Y,K)=\#\{(u,h)\in G_a\times G_b:
+                  u+h\in G_Y,\ u-h\in G_K\}.
+\]
+The earlier note's union count is
+\[
+ Q(a,b;Y,K;r)=C(a,b;Y,K)+C(r,b;Y,K)
+                         -C(\gcd(a,r),b;Y,K).
+\]
+Here $d=\gcd(Y,K)$ and $L=\operatorname{lcm}(Y,K)$ retain the
+notation of this note; the earlier note uses different letters for some
+of these quantities.
+
+At a triple point, $2y=(x+y)-(x-y)\in G_L$, so $y\in G_{2L}$.
+Consequently, restricting the second coordinate to $G_{2L}$ loses no
+triple points, and there are exact identifications
+\[
+ TT(n;Y,K)=C(n,2L;Y,K),\qquad T=Q(N,2L;Y,K;R).
+\]
+Conversely, each pair in the specified $C$ or $Q$ set is a triple point
+of the corresponding arrangement, so these identifications are bijective.
+
+To display the specialization of the earlier Smith-normal-form formula,
+put $q=\gcd(n,2L)$, $n=q a$, $2L=q b$, and
+$M=\operatorname{lcm}(n,2L)=qab$. Then $\gcd(a,b)=1$, and the
+integer matrix in~\cite[Eqs. (2)--(4)]{Walke2026} is
+\[
+ A=\begin{pmatrix}Yb&Ya\\Kb&-Ka\end{pmatrix}.
+\]
+Its invariant factors are
+\[
+ s_1=d,\qquad s_2=\frac{2YK\,ab}{d}=2L\,ab=Mb.
+\]
+Since $d\mid M$, the earlier formula gives
+\[
+ C(n,2L;Y,K)
+ =\frac{n(2L)}{M^2}\gcd(M,s_1)\gcd(M,s_2)
+ =\frac{n(2L)}{M}d=dq.
+\]
+Its inclusion--exclusion formula~\cite[Corollary 1, Eq. (8)]{Walke2026}
+therefore gives exactly equation~\eqref{eq:triple}. This is an algebraic
+specialization of the earlier exposition, not a separate originality
+claim for the triple-count arithmetic. The earlier note does not count
+complementary faces of a torus arrangement; the geometric argument above
+is needed to pass from $T$ to $F$.
+
+\section{An arithmetic-Tutte specialization}
+This section is a direct specialization of the cited general results,
+not a further general counting theorem. Use the indexed list
+\[
+ X=((N,0),(R,0),(Y,Y),(K,-K)).
+\]
+Its character kernels give exactly the union of curves studied here.
+For a rank-two sublist $A$, its arithmetic multiplicity $m(A)$ is the
+gcd of its nonzero absolute two-by-two determinants. The region count
+is the arithmetic-Tutte evaluation
+\[
+ M_X(1,0)=\sum_{\substack{A\subseteq X\\r(A)=2}}
+             (-1)^{|A|-2}m(A)\qquad\text{\cite{Moci}}.
+\]
+Here $r(A)$ is the rank over $\mathbb Q$ of the indexed character sublist.
+Subsets are subsets of indexed positions, even if $N=R$.
+Write $S(n)=\gcd(nY,nK,2YK)=d\gcd(n,2L)$. The following evaluation is
+our algebraic substitution into that known formula:
+\begin{align*}
+ \text{pairs:}&\quad (N+R)(Y+K)+2YK,\\
+ \text{triples:}&\quad -g(Y+K)-S(N)-S(R),\\
+ \text{four positions:}&\quad +S(g).
+\end{align*}
+Their sum is $P-T$. Thus the explicit formula is already a consequence
+of established arithmetic-arrangement theory. The elementary proof above
+avoids needing that framework to verify this particular evaluation.
+
+\section{The parameters \texorpdfstring{$R=12$, $Y=27$, $K=60$}{R=12, Y=27, K=60}}
+Here $d=3$ and $L=540$, so
+\[
+ TT(n;27,60)=3\gcd(n,1080).
+\]
+Equivalently, writing $\nu_p(n)$ for the exponent of a prime $p$ in $n$,
+\[
+ TT(n;27,60)=2^{\min(\nu_2(n),3)}
+             3^{\min(\nu_3(n)+1,4)}
+             5^{\min(\nu_5(n),1)}.
+\]
+This equivalence follows from $1080=2^3\cdot3^3\cdot5$; it does not
+depend on extrapolating a finite numerical pattern. The function $TT$
+itself is not multiplicative in the standard arithmetic sense, since
+$TT(1)=3$. Its normalization $TT(n)/3=\gcd(n,1080)$ is multiplicative.
+
+\begin{corollary}
+For every positive integer $N$, with the other three parameters fixed
+as above,
+\[
+ \boxed{F(N)=87N+4248-84\gcd(N,12)-3\gcd(N,1080).}
+\]
+\end{corollary}
+\begin{proof}
+Set $g=\gcd(N,12)$. Since $g$ divides both $12$ and $1080$, the triple
+count is $T=3\gcd(N,1080)+36-3g$. Also
+$P=87(N+12-g)+3240$. Subtracting proves the result.
+\end{proof}
+
+At $N=27$ one obtains
+\[
+ v=36,\quad T=108,\quad P=6372,\quad
+ (V,E,F)=(6156,12420,6264).
+\]
+For the immediate integer neighbours,
+\[
+ F(26)=6336,\qquad F(27)=6264,\qquad F(28)=6336.
+\]
+Thus $N=27$ is a strict local minimum relative to these neighbours.
+It is not a local maximum. These statements do not assert any physical
+optimality or lack of arithmetic structure.
+
+For clarity, $TT(28;27,60)=12$ counts triples on the single grid $G_{28}$,
+whereas $T=36$ counts triples on $G_{28}\cup G_{12}$. These quantities
+must not be interchanged.
+
+\section{What the count does not identify automatically}
+The number of geometric faces need not equal the number of distinct
+tuples produced by labelling them. For example, $N=R=Y=K=1$ gives
+$T=1$, $P=4$, and $(V,E,F)=(2,5,3)$, while the four one-bin raw labels
+are constant. A claim equating faces with a particular labelled encoding
+requires a separate injectivity or connectedness argument. A further
+claim that a finite trajectory visits every face requires additional
+analysis. Neither identification is used in Theorem~\ref{thm:main}.
+
+\section{Supplementary implementation}
+The companion file \texttt{anc/hv27\_torus\_counts.py} provides the gcd
+formula and a rational vertex-enumeration method using only Python's
+standard library. The latter counts incidences at exact rational vertices
+and applies the cellular Euler relation justified above. Comparing the
+two implementations is a consistency check; the all-parameter theorem
+is established by the proof, not by such comparisons.
+
+The accompanying \texttt{anc/run\_hv27\_checks.py} defines a finite
+validation suite. Author-supplied reports dated 6 November 2026 record a
+Windows CPython 3.14.7 run with 284 completed checks, all passing: two
+reference examples, 26 default-parameter cases with $15\leq N\leq40$,
+eight nondefault-parameter examples, 200 pure-grid triple-count comparisons
+with $1\leq n\leq200$, and 48 invalid-input cases. The pure-grid test uses
+the integer congruence
+\[
+ K(2iY-jn)\equiv0\pmod{nY},\qquad 0\leq i<n,\quad 0\leq j<Y,
+\]
+instead of the companion's rational vertex construction.
+
+The supplied reports are included as \path{anc/validation/RESULTS.json}
+and \path{anc/validation/RESULTS.txt}. Their recorded checks agree, and
+the recorded core and runner SHA-256 hashes match the distributed source
+files. These are inspected author-supplied runtime records, not an
+independent re-execution by the preparation assistant. They do not record
+a terminal process exit code. Earlier archived logs concern other source
+versions and are not used to validate this release.
+
+These finite checks support implementation consistency. In particular,
+the vertex enumerator obtains $F$ from $E-V$; it does not independently
+enumerate the complement's faces. The cellularity proof and the
+all-parameter theorem remain mathematical arguments, rather than
+conclusions drawn from a finite run.
+
+\clearpage
+\section*{Assistance and author review}
+ChatGPT (OpenAI) and Claude (Anthropic) were used for AI assistance in
+the research and preparation of this note. Across the workflow, this
+assistance included calculations, proof arguments, mathematical exposition,
+literature comparison, and supplementary source code. It was not limited to language
+editing. Historical computation records and the new author-supplied
+validation reports were read as data. No research code or proof checker
+was executed by the preparation assistant.
+
+The author formulated the motivating mathematical idea and initial
+hypotheses, supplied the starting basis for the investigation, and pursued
+the research with AI assistance. The reported results were developed
+through this internally AI-assisted process. The author also supplied the
+publication identity and new runtime reports. This contribution statement
+records the author's account of his role in originating and developing
+the project; it makes no priority claim for the established mathematical
+methods used here.
+
+Internal mathematical investigation and inspection were AI-assisted.
+Completed personal verification of every proof step is not asserted, and
+no independent human peer review of this draft is documented. AI tools
+are not authors.
+
+\begin{thebibliography}{9}
+\raggedright
+\bibitem{CD}
+K. Chandrasekhar and P. Deshpande,
+\emph{Face enumeration for line arrangements in a 2-torus},
+Indian Journal of Pure and Applied Mathematics \textbf{48} (2017), 345--362.
+\url{https://doi.org/10.1007/s13226-017-0234-7}.
+Preprint consulted: \url{https://arxiv.org/abs/1404.1665v1}.
+Lemma numbers cited here refer to the preprint.
+
+\bibitem{ERS}
+R. Ehrenborg, M. Readdy and M. Slone,
+\emph{Affine and toric hyperplane arrangements},
+Discrete \& Computational Geometry \textbf{41} (2009), 481--512.
+\url{https://doi.org/10.1007/s00454-009-9134-x}.
+Preprint consulted: \url{https://arxiv.org/abs/0810.0295v1}.
+
+\bibitem{Moci}
+L. Moci,
+\emph{A Tutte polynomial for toric arrangements},
+Transactions of the American Mathematical Society \textbf{364}(2)
+(2012), 1067--1088.
+\url{https://doi.org/10.1090/S0002-9947-2011-05491-7}.
+Preprint consulted: \url{https://arxiv.org/abs/0911.4823v5}.
+Result numbers cited here refer to the preprint version consulted.
+
+\bibitem{Walke2026}
+R. M. Walke,
+\emph{Counting intersections of rational cyclic grids: an application
+of Smith normal form}, version 9.1, Zenodo preprint, 6 October 2026.
+\url{https://doi.org/10.5281/zenodo.23184983}.
+Full seven-page text consulted in the author-supplied PDF;
+Theorem 1 and Corollary 1 are used in the comparison above.
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the associated preprint using the preferred citation below."
+type: software
+title: "HV27: Supplementary code and manuscript for Three-Direction Torus Arrangements"
+version: "v08"
+authors:
+  - family-names: Walke
+    given-names: Rushikesh Murlidhar
+    orcid: "https://orcid.org/0009-0006-6749-5660"
+url: "https://doi.org/10.5281/zenodo.24014501"
+repository-code: "https://github.com/Rmwalke/hv27-torus-arrangements"
+preferred-citation:
+  type: article
+  title: "An Explicit GCD Evaluation for Three-Direction Torus Arrangements"
+  authors:
+    - family-names: Walke
+      given-names: Rushikesh Murlidhar
+      orcid: "https://orcid.org/0009-0006-6749-5660"
+  doi: "10.5281/zenodo.24014501"
+  url: "https://doi.org/10.5281/zenodo.24014501"
+  year: 2026
+  month: 11
+  day: 6
+  version: "v08"
+  notes: "Zenodo preprint, version v08; independent human peer review is not claimed."

@@ -1,0 +1,39 @@
+HV27 — REPOSITORY LICENSING INDEX
+Copyright (c) 2026 Rushikesh Murlidhar Walke
+
+This repository has separate license scopes. It is not licensed under a
+single blanket MIT license, and the files are not all dual-licensed.
+
+ARTICLE AND SEPARATE DOCUMENTATION — CC BY 4.0
+The root PDF HV27_Preprint_Review_v08.pdf and the manuscript and separate
+documentation identified in article/LICENSING_SCOPE.txt are covered by
+the CC BY 4.0 notice in article/LICENSE-CC-BY-4.0.txt, to the extent of
+copyright and similar rights held by the author. The new root README.md,
+CITATION.cff and this licensing index are also licensed CC BY 4.0 on that
+basis. Reasonable attribution: Rushikesh Murlidhar Walke, HV27 supplementary
+materials, with the preprint DOI and license link; indicate modifications
+and retain applicable notices as required by the license.
+
+License: https://creativecommons.org/licenses/by/4.0/
+Full legal terms: https://creativecommons.org/licenses/by/4.0/legalcode.en
+Preprint DOI: https://doi.org/10.5281/zenodo.24014501
+
+ORIGINAL SOFTWARE — MIT
+The complete standard MIT notice is in article/anc/LICENSE. It applies to:
+  article/anc/hv27_torus_counts.py
+  article/anc/run_hv27_checks.py
+  article/anc/RUN_HV27_WINDOWS.bat
+including their inline documentation.
+
+FACTUAL RECORDS AND EXCLUSIONS
+The original validation-report scope is in
+article/anc/validation/README_LICENSE.txt. No exclusive rights are asserted
+in mathematical facts, unprotected data, or SHA-256 values. To the extent
+the author holds rights in original text, selection or arrangement in
+reports/manifests, those rights are licensed CC BY 4.0.
+Third-party publications and external dependencies retain their own terms.
+
+PRESERVED PREPARATION NOTICES
+Files under article/ are preserved from preparation v08. Historical
+statements there about no assigned HV27 DOI are superseded by the published
+preprint DOI above; the underlying license grants remain in force.

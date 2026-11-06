@@ -1,0 +1,3728 @@
+{
+  "runner_version": "HV27 offline checks v01, 2026-11-06",
+  "preparation": "Source reviewed only; not executed during preparation.",
+  "started_utc": "2026-11-06T13:31:23.898559+00:00",
+  "python_version": [
+    3,
+    14,
+    7
+  ],
+  "python_implementation": "cpython",
+  "platform": "win32",
+  "expected_core_sha256": "4ddf34683d88d24c0720b831b30cc5319245485783678efb08f09198503296e2",
+  "planned_checks": 284,
+  "checks": [
+    {
+      "name": "known_all_one",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 1,
+          "R": 1,
+          "Y": 1,
+          "K": 1
+        },
+        "formula": {
+          "nv": 1,
+          "T": 1,
+          "V": 2,
+          "E": 5,
+          "F": 3
+        },
+        "enumerated": {
+          "nv": 1,
+          "T": 1,
+          "V": 2,
+          "E": 5,
+          "F": 3
+        },
+        "expected_counts": {
+          "nv": 1,
+          "T": 1,
+          "V": 2,
+          "E": 5,
+          "F": 3
+        },
+        "expected_F": null
+      }
+    },
+    {
+      "name": "known_HV27",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 27,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 36,
+          "T": 108,
+          "V": 6156,
+          "E": 12420,
+          "F": 6264
+        },
+        "enumerated": {
+          "nv": 36,
+          "T": 108,
+          "V": 6156,
+          "E": 12420,
+          "F": 6264
+        },
+        "expected_counts": {
+          "nv": 36,
+          "T": 108,
+          "V": 6156,
+          "E": 12420,
+          "F": 6264
+        },
+        "expected_F": null
+      }
+    },
+    {
+      "name": "default_N=15",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 15,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 24,
+          "T": 72,
+          "V": 5184,
+          "E": 10440,
+          "F": 5256
+        },
+        "enumerated": {
+          "nv": 24,
+          "T": 72,
+          "V": 5184,
+          "E": 10440,
+          "F": 5256
+        },
+        "expected_counts": null,
+        "expected_F": 5256
+      }
+    },
+    {
+      "name": "default_N=16",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 16,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 24,
+          "T": 48,
+          "V": 5232,
+          "E": 10512,
+          "F": 5280
+        },
+        "enumerated": {
+          "nv": 24,
+          "T": 48,
+          "V": 5232,
+          "E": 10512,
+          "F": 5280
+        },
+        "expected_counts": null,
+        "expected_F": 5280
+      }
+    },
+    {
+      "name": "default_N=17",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 17,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 28,
+          "T": 36,
+          "V": 5604,
+          "E": 11244,
+          "F": 5640
+        },
+        "enumerated": {
+          "nv": 28,
+          "T": 36,
+          "V": 5604,
+          "E": 11244,
+          "F": 5640
+        },
+        "expected_counts": null,
+        "expected_F": 5640
+      }
+    },
+    {
+      "name": "default_N=18",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 18,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 24,
+          "T": 72,
+          "V": 5184,
+          "E": 10440,
+          "F": 5256
+        },
+        "enumerated": {
+          "nv": 24,
+          "T": 72,
+          "V": 5184,
+          "E": 10440,
+          "F": 5256
+        },
+        "expected_counts": null,
+        "expected_F": 5256
+      }
+    },
+    {
+      "name": "default_N=19",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 19,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 30,
+          "T": 36,
+          "V": 5778,
+          "E": 11592,
+          "F": 5814
+        },
+        "enumerated": {
+          "nv": 30,
+          "T": 36,
+          "V": 5778,
+          "E": 11592,
+          "F": 5814
+        },
+        "expected_counts": null,
+        "expected_F": 5814
+      }
+    },
+    {
+      "name": "default_N=20",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 20,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 28,
+          "T": 84,
+          "V": 5508,
+          "E": 11100,
+          "F": 5592
+        },
+        "enumerated": {
+          "nv": 28,
+          "T": 84,
+          "V": 5508,
+          "E": 11100,
+          "F": 5592
+        },
+        "expected_counts": null,
+        "expected_F": 5592
+      }
+    },
+    {
+      "name": "default_N=21",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 21,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 30,
+          "T": 36,
+          "V": 5778,
+          "E": 11592,
+          "F": 5814
+        },
+        "enumerated": {
+          "nv": 30,
+          "T": 36,
+          "V": 5778,
+          "E": 11592,
+          "F": 5814
+        },
+        "expected_counts": null,
+        "expected_F": 5814
+      }
+    },
+    {
+      "name": "default_N=22",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 22,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 32,
+          "T": 36,
+          "V": 5952,
+          "E": 11940,
+          "F": 5988
+        },
+        "enumerated": {
+          "nv": 32,
+          "T": 36,
+          "V": 5952,
+          "E": 11940,
+          "F": 5988
+        },
+        "expected_counts": null,
+        "expected_F": 5988
+      }
+    },
+    {
+      "name": "default_N=23",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 23,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 34,
+          "T": 36,
+          "V": 6126,
+          "E": 12288,
+          "F": 6162
+        },
+        "enumerated": {
+          "nv": 34,
+          "T": 36,
+          "V": 6126,
+          "E": 12288,
+          "F": 6162
+        },
+        "expected_counts": null,
+        "expected_F": 6162
+      }
+    },
+    {
+      "name": "default_N=24",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 24,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 24,
+          "T": 72,
+          "V": 5184,
+          "E": 10440,
+          "F": 5256
+        },
+        "enumerated": {
+          "nv": 24,
+          "T": 72,
+          "V": 5184,
+          "E": 10440,
+          "F": 5256
+        },
+        "expected_counts": null,
+        "expected_F": 5256
+      }
+    },
+    {
+      "name": "default_N=25",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 25,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 36,
+          "T": 48,
+          "V": 6276,
+          "E": 12600,
+          "F": 6324
+        },
+        "enumerated": {
+          "nv": 36,
+          "T": 48,
+          "V": 6276,
+          "E": 12600,
+          "F": 6324
+        },
+        "expected_counts": null,
+        "expected_F": 6324
+      }
+    },
+    {
+      "name": "default_N=26",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 26,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 36,
+          "T": 36,
+          "V": 6300,
+          "E": 12636,
+          "F": 6336
+        },
+        "enumerated": {
+          "nv": 36,
+          "T": 36,
+          "V": 6300,
+          "E": 12636,
+          "F": 6336
+        },
+        "expected_counts": null,
+        "expected_F": 6336
+      }
+    },
+    {
+      "name": "default_N=27",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 27,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 36,
+          "T": 108,
+          "V": 6156,
+          "E": 12420,
+          "F": 6264
+        },
+        "enumerated": {
+          "nv": 36,
+          "T": 108,
+          "V": 6156,
+          "E": 12420,
+          "F": 6264
+        },
+        "expected_counts": null,
+        "expected_F": 6264
+      }
+    },
+    {
+      "name": "default_N=28",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 28,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 36,
+          "T": 36,
+          "V": 6300,
+          "E": 12636,
+          "F": 6336
+        },
+        "enumerated": {
+          "nv": 36,
+          "T": 36,
+          "V": 6300,
+          "E": 12636,
+          "F": 6336
+        },
+        "expected_counts": null,
+        "expected_F": 6336
+      }
+    },
+    {
+      "name": "default_N=29",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 29,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 40,
+          "T": 36,
+          "V": 6648,
+          "E": 13332,
+          "F": 6684
+        },
+        "enumerated": {
+          "nv": 40,
+          "T": 36,
+          "V": 6648,
+          "E": 13332,
+          "F": 6684
+        },
+        "expected_counts": null,
+        "expected_F": 6684
+      }
+    },
+    {
+      "name": "default_N=30",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 30,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 36,
+          "T": 108,
+          "V": 6156,
+          "E": 12420,
+          "F": 6264
+        },
+        "enumerated": {
+          "nv": 36,
+          "T": 108,
+          "V": 6156,
+          "E": 12420,
+          "F": 6264
+        },
+        "expected_counts": null,
+        "expected_F": 6264
+      }
+    },
+    {
+      "name": "default_N=31",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 31,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 42,
+          "T": 36,
+          "V": 6822,
+          "E": 13680,
+          "F": 6858
+        },
+        "enumerated": {
+          "nv": 42,
+          "T": 36,
+          "V": 6822,
+          "E": 13680,
+          "F": 6858
+        },
+        "expected_counts": null,
+        "expected_F": 6858
+      }
+    },
+    {
+      "name": "default_N=32",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 32,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 40,
+          "T": 48,
+          "V": 6624,
+          "E": 13296,
+          "F": 6672
+        },
+        "enumerated": {
+          "nv": 40,
+          "T": 48,
+          "V": 6624,
+          "E": 13296,
+          "F": 6672
+        },
+        "expected_counts": null,
+        "expected_F": 6672
+      }
+    },
+    {
+      "name": "default_N=33",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 33,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 42,
+          "T": 36,
+          "V": 6822,
+          "E": 13680,
+          "F": 6858
+        },
+        "enumerated": {
+          "nv": 42,
+          "T": 36,
+          "V": 6822,
+          "E": 13680,
+          "F": 6858
+        },
+        "expected_counts": null,
+        "expected_F": 6858
+      }
+    },
+    {
+      "name": "default_N=34",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 34,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 44,
+          "T": 36,
+          "V": 6996,
+          "E": 14028,
+          "F": 7032
+        },
+        "enumerated": {
+          "nv": 44,
+          "T": 36,
+          "V": 6996,
+          "E": 14028,
+          "F": 7032
+        },
+        "expected_counts": null,
+        "expected_F": 7032
+      }
+    },
+    {
+      "name": "default_N=35",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 35,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 46,
+          "T": 48,
+          "V": 7146,
+          "E": 14340,
+          "F": 7194
+        },
+        "enumerated": {
+          "nv": 46,
+          "T": 48,
+          "V": 7146,
+          "E": 14340,
+          "F": 7194
+        },
+        "expected_counts": null,
+        "expected_F": 7194
+      }
+    },
+    {
+      "name": "default_N=36",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 36,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 36,
+          "T": 108,
+          "V": 6156,
+          "E": 12420,
+          "F": 6264
+        },
+        "enumerated": {
+          "nv": 36,
+          "T": 108,
+          "V": 6156,
+          "E": 12420,
+          "F": 6264
+        },
+        "expected_counts": null,
+        "expected_F": 6264
+      }
+    },
+    {
+      "name": "default_N=37",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 37,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 48,
+          "T": 36,
+          "V": 7344,
+          "E": 14724,
+          "F": 7380
+        },
+        "enumerated": {
+          "nv": 48,
+          "T": 36,
+          "V": 7344,
+          "E": 14724,
+          "F": 7380
+        },
+        "expected_counts": null,
+        "expected_F": 7380
+      }
+    },
+    {
+      "name": "default_N=38",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 38,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 48,
+          "T": 36,
+          "V": 7344,
+          "E": 14724,
+          "F": 7380
+        },
+        "enumerated": {
+          "nv": 48,
+          "T": 36,
+          "V": 7344,
+          "E": 14724,
+          "F": 7380
+        },
+        "expected_counts": null,
+        "expected_F": 7380
+      }
+    },
+    {
+      "name": "default_N=39",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 39,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 48,
+          "T": 36,
+          "V": 7344,
+          "E": 14724,
+          "F": 7380
+        },
+        "enumerated": {
+          "nv": 48,
+          "T": 36,
+          "V": 7344,
+          "E": 14724,
+          "F": 7380
+        },
+        "expected_counts": null,
+        "expected_F": 7380
+      }
+    },
+    {
+      "name": "default_N=40",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 40,
+          "R": 12,
+          "Y": 27,
+          "K": 60
+        },
+        "formula": {
+          "nv": 48,
+          "T": 144,
+          "V": 7128,
+          "E": 14400,
+          "F": 7272
+        },
+        "enumerated": {
+          "nv": 48,
+          "T": 144,
+          "V": 7128,
+          "E": 14400,
+          "F": 7272
+        },
+        "expected_counts": null,
+        "expected_F": 7272
+      }
+    },
+    {
+      "name": "generic_1",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 2,
+          "R": 2,
+          "Y": 1,
+          "K": 1
+        },
+        "formula": {
+          "nv": 2,
+          "T": 2,
+          "V": 2,
+          "E": 6,
+          "F": 4
+        },
+        "enumerated": {
+          "nv": 2,
+          "T": 2,
+          "V": 2,
+          "E": 6,
+          "F": 4
+        },
+        "expected_counts": null,
+        "expected_F": null
+      }
+    },
+    {
+      "name": "generic_2",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 1,
+          "R": 1,
+          "Y": 2,
+          "K": 2
+        },
+        "formula": {
+          "nv": 1,
+          "T": 2,
+          "V": 8,
+          "E": 18,
+          "F": 10
+        },
+        "enumerated": {
+          "nv": 1,
+          "T": 2,
+          "V": 8,
+          "E": 18,
+          "F": 10
+        },
+        "expected_counts": null,
+        "expected_F": null
+      }
+    },
+    {
+      "name": "generic_3",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 3,
+          "R": 2,
+          "Y": 4,
+          "K": 5
+        },
+        "formula": {
+          "nv": 4,
+          "T": 2,
+          "V": 72,
+          "E": 146,
+          "F": 74
+        },
+        "enumerated": {
+          "nv": 4,
+          "T": 2,
+          "V": 72,
+          "E": 146,
+          "F": 74
+        },
+        "expected_counts": null,
+        "expected_F": null
+      }
+    },
+    {
+      "name": "generic_4",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 5,
+          "R": 3,
+          "Y": 6,
+          "K": 4
+        },
+        "formula": {
+          "nv": 7,
+          "T": 6,
+          "V": 106,
+          "E": 218,
+          "F": 112
+        },
+        "enumerated": {
+          "nv": 7,
+          "T": 6,
+          "V": 106,
+          "E": 218,
+          "F": 112
+        },
+        "expected_counts": null,
+        "expected_F": null
+      }
+    },
+    {
+      "name": "generic_5",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 4,
+          "R": 6,
+          "Y": 5,
+          "K": 7
+        },
+        "formula": {
+          "nv": 8,
+          "T": 2,
+          "V": 162,
+          "E": 326,
+          "F": 164
+        },
+        "enumerated": {
+          "nv": 8,
+          "T": 2,
+          "V": 162,
+          "E": 326,
+          "F": 164
+        },
+        "expected_counts": null,
+        "expected_F": null
+      }
+    },
+    {
+      "name": "generic_6",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 6,
+          "R": 4,
+          "Y": 8,
+          "K": 10
+        },
+        "formula": {
+          "nv": 8,
+          "T": 8,
+          "V": 288,
+          "E": 584,
+          "F": 296
+        },
+        "enumerated": {
+          "nv": 8,
+          "T": 8,
+          "V": 288,
+          "E": 584,
+          "F": 296
+        },
+        "expected_counts": null,
+        "expected_F": null
+      }
+    },
+    {
+      "name": "generic_7",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 7,
+          "R": 5,
+          "Y": 9,
+          "K": 6
+        },
+        "formula": {
+          "nv": 11,
+          "T": 3,
+          "V": 267,
+          "E": 537,
+          "F": 270
+        },
+        "enumerated": {
+          "nv": 11,
+          "T": 3,
+          "V": 267,
+          "E": 537,
+          "F": 270
+        },
+        "expected_counts": null,
+        "expected_F": null
+      }
+    },
+    {
+      "name": "generic_8",
+      "status": "PASS",
+      "details": {
+        "parameters": {
+          "N": 1,
+          "R": 2,
+          "Y": 1,
+          "K": 3
+        },
+        "formula": {
+          "nv": 2,
+          "T": 2,
+          "V": 10,
+          "E": 22,
+          "F": 12
+        },
+        "enumerated": {
+          "nv": 2,
+          "T": 2,
+          "V": 10,
+          "E": 22,
+          "F": 12
+        },
+        "expected_counts": null,
+        "expected_F": null
+      }
+    },
+    {
+      "name": "pure_TT_n=1",
+      "status": "PASS",
+      "details": {
+        "n": 1,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=2",
+      "status": "PASS",
+      "details": {
+        "n": 2,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=3",
+      "status": "PASS",
+      "details": {
+        "n": 3,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=4",
+      "status": "PASS",
+      "details": {
+        "n": 4,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "pure_TT_n=5",
+      "status": "PASS",
+      "details": {
+        "n": 5,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 15,
+        "expected": 15
+      }
+    },
+    {
+      "name": "pure_TT_n=6",
+      "status": "PASS",
+      "details": {
+        "n": 6,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 18,
+        "expected": 18
+      }
+    },
+    {
+      "name": "pure_TT_n=7",
+      "status": "PASS",
+      "details": {
+        "n": 7,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=8",
+      "status": "PASS",
+      "details": {
+        "n": 8,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "pure_TT_n=9",
+      "status": "PASS",
+      "details": {
+        "n": 9,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 27,
+        "expected": 27
+      }
+    },
+    {
+      "name": "pure_TT_n=10",
+      "status": "PASS",
+      "details": {
+        "n": 10,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 30,
+        "expected": 30
+      }
+    },
+    {
+      "name": "pure_TT_n=11",
+      "status": "PASS",
+      "details": {
+        "n": 11,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=12",
+      "status": "PASS",
+      "details": {
+        "n": 12,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 36,
+        "expected": 36
+      }
+    },
+    {
+      "name": "pure_TT_n=13",
+      "status": "PASS",
+      "details": {
+        "n": 13,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=14",
+      "status": "PASS",
+      "details": {
+        "n": 14,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=15",
+      "status": "PASS",
+      "details": {
+        "n": 15,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 45,
+        "expected": 45
+      }
+    },
+    {
+      "name": "pure_TT_n=16",
+      "status": "PASS",
+      "details": {
+        "n": 16,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "pure_TT_n=17",
+      "status": "PASS",
+      "details": {
+        "n": 17,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=18",
+      "status": "PASS",
+      "details": {
+        "n": 18,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 54,
+        "expected": 54
+      }
+    },
+    {
+      "name": "pure_TT_n=19",
+      "status": "PASS",
+      "details": {
+        "n": 19,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=20",
+      "status": "PASS",
+      "details": {
+        "n": 20,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 60,
+        "expected": 60
+      }
+    },
+    {
+      "name": "pure_TT_n=21",
+      "status": "PASS",
+      "details": {
+        "n": 21,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=22",
+      "status": "PASS",
+      "details": {
+        "n": 22,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=23",
+      "status": "PASS",
+      "details": {
+        "n": 23,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=24",
+      "status": "PASS",
+      "details": {
+        "n": 24,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 72,
+        "expected": 72
+      }
+    },
+    {
+      "name": "pure_TT_n=25",
+      "status": "PASS",
+      "details": {
+        "n": 25,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 15,
+        "expected": 15
+      }
+    },
+    {
+      "name": "pure_TT_n=26",
+      "status": "PASS",
+      "details": {
+        "n": 26,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=27",
+      "status": "PASS",
+      "details": {
+        "n": 27,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 81,
+        "expected": 81
+      }
+    },
+    {
+      "name": "pure_TT_n=28",
+      "status": "PASS",
+      "details": {
+        "n": 28,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "pure_TT_n=29",
+      "status": "PASS",
+      "details": {
+        "n": 29,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=30",
+      "status": "PASS",
+      "details": {
+        "n": 30,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 90,
+        "expected": 90
+      }
+    },
+    {
+      "name": "pure_TT_n=31",
+      "status": "PASS",
+      "details": {
+        "n": 31,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=32",
+      "status": "PASS",
+      "details": {
+        "n": 32,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "pure_TT_n=33",
+      "status": "PASS",
+      "details": {
+        "n": 33,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=34",
+      "status": "PASS",
+      "details": {
+        "n": 34,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=35",
+      "status": "PASS",
+      "details": {
+        "n": 35,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 15,
+        "expected": 15
+      }
+    },
+    {
+      "name": "pure_TT_n=36",
+      "status": "PASS",
+      "details": {
+        "n": 36,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 108,
+        "expected": 108
+      }
+    },
+    {
+      "name": "pure_TT_n=37",
+      "status": "PASS",
+      "details": {
+        "n": 37,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=38",
+      "status": "PASS",
+      "details": {
+        "n": 38,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=39",
+      "status": "PASS",
+      "details": {
+        "n": 39,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=40",
+      "status": "PASS",
+      "details": {
+        "n": 40,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 120,
+        "expected": 120
+      }
+    },
+    {
+      "name": "pure_TT_n=41",
+      "status": "PASS",
+      "details": {
+        "n": 41,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=42",
+      "status": "PASS",
+      "details": {
+        "n": 42,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 18,
+        "expected": 18
+      }
+    },
+    {
+      "name": "pure_TT_n=43",
+      "status": "PASS",
+      "details": {
+        "n": 43,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=44",
+      "status": "PASS",
+      "details": {
+        "n": 44,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "pure_TT_n=45",
+      "status": "PASS",
+      "details": {
+        "n": 45,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 135,
+        "expected": 135
+      }
+    },
+    {
+      "name": "pure_TT_n=46",
+      "status": "PASS",
+      "details": {
+        "n": 46,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=47",
+      "status": "PASS",
+      "details": {
+        "n": 47,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=48",
+      "status": "PASS",
+      "details": {
+        "n": 48,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 72,
+        "expected": 72
+      }
+    },
+    {
+      "name": "pure_TT_n=49",
+      "status": "PASS",
+      "details": {
+        "n": 49,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=50",
+      "status": "PASS",
+      "details": {
+        "n": 50,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 30,
+        "expected": 30
+      }
+    },
+    {
+      "name": "pure_TT_n=51",
+      "status": "PASS",
+      "details": {
+        "n": 51,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=52",
+      "status": "PASS",
+      "details": {
+        "n": 52,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "pure_TT_n=53",
+      "status": "PASS",
+      "details": {
+        "n": 53,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=54",
+      "status": "PASS",
+      "details": {
+        "n": 54,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 162,
+        "expected": 162
+      }
+    },
+    {
+      "name": "pure_TT_n=55",
+      "status": "PASS",
+      "details": {
+        "n": 55,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 15,
+        "expected": 15
+      }
+    },
+    {
+      "name": "pure_TT_n=56",
+      "status": "PASS",
+      "details": {
+        "n": 56,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "pure_TT_n=57",
+      "status": "PASS",
+      "details": {
+        "n": 57,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=58",
+      "status": "PASS",
+      "details": {
+        "n": 58,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=59",
+      "status": "PASS",
+      "details": {
+        "n": 59,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=60",
+      "status": "PASS",
+      "details": {
+        "n": 60,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 180,
+        "expected": 180
+      }
+    },
+    {
+      "name": "pure_TT_n=61",
+      "status": "PASS",
+      "details": {
+        "n": 61,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=62",
+      "status": "PASS",
+      "details": {
+        "n": 62,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=63",
+      "status": "PASS",
+      "details": {
+        "n": 63,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 27,
+        "expected": 27
+      }
+    },
+    {
+      "name": "pure_TT_n=64",
+      "status": "PASS",
+      "details": {
+        "n": 64,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "pure_TT_n=65",
+      "status": "PASS",
+      "details": {
+        "n": 65,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 15,
+        "expected": 15
+      }
+    },
+    {
+      "name": "pure_TT_n=66",
+      "status": "PASS",
+      "details": {
+        "n": 66,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 18,
+        "expected": 18
+      }
+    },
+    {
+      "name": "pure_TT_n=67",
+      "status": "PASS",
+      "details": {
+        "n": 67,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=68",
+      "status": "PASS",
+      "details": {
+        "n": 68,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "pure_TT_n=69",
+      "status": "PASS",
+      "details": {
+        "n": 69,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=70",
+      "status": "PASS",
+      "details": {
+        "n": 70,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 30,
+        "expected": 30
+      }
+    },
+    {
+      "name": "pure_TT_n=71",
+      "status": "PASS",
+      "details": {
+        "n": 71,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=72",
+      "status": "PASS",
+      "details": {
+        "n": 72,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 216,
+        "expected": 216
+      }
+    },
+    {
+      "name": "pure_TT_n=73",
+      "status": "PASS",
+      "details": {
+        "n": 73,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=74",
+      "status": "PASS",
+      "details": {
+        "n": 74,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=75",
+      "status": "PASS",
+      "details": {
+        "n": 75,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 45,
+        "expected": 45
+      }
+    },
+    {
+      "name": "pure_TT_n=76",
+      "status": "PASS",
+      "details": {
+        "n": 76,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "pure_TT_n=77",
+      "status": "PASS",
+      "details": {
+        "n": 77,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=78",
+      "status": "PASS",
+      "details": {
+        "n": 78,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 18,
+        "expected": 18
+      }
+    },
+    {
+      "name": "pure_TT_n=79",
+      "status": "PASS",
+      "details": {
+        "n": 79,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=80",
+      "status": "PASS",
+      "details": {
+        "n": 80,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 120,
+        "expected": 120
+      }
+    },
+    {
+      "name": "pure_TT_n=81",
+      "status": "PASS",
+      "details": {
+        "n": 81,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 81,
+        "expected": 81
+      }
+    },
+    {
+      "name": "pure_TT_n=82",
+      "status": "PASS",
+      "details": {
+        "n": 82,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=83",
+      "status": "PASS",
+      "details": {
+        "n": 83,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=84",
+      "status": "PASS",
+      "details": {
+        "n": 84,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 36,
+        "expected": 36
+      }
+    },
+    {
+      "name": "pure_TT_n=85",
+      "status": "PASS",
+      "details": {
+        "n": 85,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 15,
+        "expected": 15
+      }
+    },
+    {
+      "name": "pure_TT_n=86",
+      "status": "PASS",
+      "details": {
+        "n": 86,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=87",
+      "status": "PASS",
+      "details": {
+        "n": 87,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=88",
+      "status": "PASS",
+      "details": {
+        "n": 88,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "pure_TT_n=89",
+      "status": "PASS",
+      "details": {
+        "n": 89,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=90",
+      "status": "PASS",
+      "details": {
+        "n": 90,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 270,
+        "expected": 270
+      }
+    },
+    {
+      "name": "pure_TT_n=91",
+      "status": "PASS",
+      "details": {
+        "n": 91,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=92",
+      "status": "PASS",
+      "details": {
+        "n": 92,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "pure_TT_n=93",
+      "status": "PASS",
+      "details": {
+        "n": 93,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=94",
+      "status": "PASS",
+      "details": {
+        "n": 94,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=95",
+      "status": "PASS",
+      "details": {
+        "n": 95,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 15,
+        "expected": 15
+      }
+    },
+    {
+      "name": "pure_TT_n=96",
+      "status": "PASS",
+      "details": {
+        "n": 96,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 72,
+        "expected": 72
+      }
+    },
+    {
+      "name": "pure_TT_n=97",
+      "status": "PASS",
+      "details": {
+        "n": 97,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=98",
+      "status": "PASS",
+      "details": {
+        "n": 98,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=99",
+      "status": "PASS",
+      "details": {
+        "n": 99,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 27,
+        "expected": 27
+      }
+    },
+    {
+      "name": "pure_TT_n=100",
+      "status": "PASS",
+      "details": {
+        "n": 100,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 60,
+        "expected": 60
+      }
+    },
+    {
+      "name": "pure_TT_n=101",
+      "status": "PASS",
+      "details": {
+        "n": 101,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=102",
+      "status": "PASS",
+      "details": {
+        "n": 102,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 18,
+        "expected": 18
+      }
+    },
+    {
+      "name": "pure_TT_n=103",
+      "status": "PASS",
+      "details": {
+        "n": 103,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=104",
+      "status": "PASS",
+      "details": {
+        "n": 104,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "pure_TT_n=105",
+      "status": "PASS",
+      "details": {
+        "n": 105,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 45,
+        "expected": 45
+      }
+    },
+    {
+      "name": "pure_TT_n=106",
+      "status": "PASS",
+      "details": {
+        "n": 106,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=107",
+      "status": "PASS",
+      "details": {
+        "n": 107,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=108",
+      "status": "PASS",
+      "details": {
+        "n": 108,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 324,
+        "expected": 324
+      }
+    },
+    {
+      "name": "pure_TT_n=109",
+      "status": "PASS",
+      "details": {
+        "n": 109,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=110",
+      "status": "PASS",
+      "details": {
+        "n": 110,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 30,
+        "expected": 30
+      }
+    },
+    {
+      "name": "pure_TT_n=111",
+      "status": "PASS",
+      "details": {
+        "n": 111,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=112",
+      "status": "PASS",
+      "details": {
+        "n": 112,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "pure_TT_n=113",
+      "status": "PASS",
+      "details": {
+        "n": 113,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=114",
+      "status": "PASS",
+      "details": {
+        "n": 114,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 18,
+        "expected": 18
+      }
+    },
+    {
+      "name": "pure_TT_n=115",
+      "status": "PASS",
+      "details": {
+        "n": 115,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 15,
+        "expected": 15
+      }
+    },
+    {
+      "name": "pure_TT_n=116",
+      "status": "PASS",
+      "details": {
+        "n": 116,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "pure_TT_n=117",
+      "status": "PASS",
+      "details": {
+        "n": 117,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 27,
+        "expected": 27
+      }
+    },
+    {
+      "name": "pure_TT_n=118",
+      "status": "PASS",
+      "details": {
+        "n": 118,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=119",
+      "status": "PASS",
+      "details": {
+        "n": 119,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=120",
+      "status": "PASS",
+      "details": {
+        "n": 120,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 360,
+        "expected": 360
+      }
+    },
+    {
+      "name": "pure_TT_n=121",
+      "status": "PASS",
+      "details": {
+        "n": 121,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=122",
+      "status": "PASS",
+      "details": {
+        "n": 122,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=123",
+      "status": "PASS",
+      "details": {
+        "n": 123,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=124",
+      "status": "PASS",
+      "details": {
+        "n": 124,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "pure_TT_n=125",
+      "status": "PASS",
+      "details": {
+        "n": 125,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 15,
+        "expected": 15
+      }
+    },
+    {
+      "name": "pure_TT_n=126",
+      "status": "PASS",
+      "details": {
+        "n": 126,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 54,
+        "expected": 54
+      }
+    },
+    {
+      "name": "pure_TT_n=127",
+      "status": "PASS",
+      "details": {
+        "n": 127,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=128",
+      "status": "PASS",
+      "details": {
+        "n": 128,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "pure_TT_n=129",
+      "status": "PASS",
+      "details": {
+        "n": 129,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=130",
+      "status": "PASS",
+      "details": {
+        "n": 130,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 30,
+        "expected": 30
+      }
+    },
+    {
+      "name": "pure_TT_n=131",
+      "status": "PASS",
+      "details": {
+        "n": 131,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=132",
+      "status": "PASS",
+      "details": {
+        "n": 132,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 36,
+        "expected": 36
+      }
+    },
+    {
+      "name": "pure_TT_n=133",
+      "status": "PASS",
+      "details": {
+        "n": 133,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=134",
+      "status": "PASS",
+      "details": {
+        "n": 134,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=135",
+      "status": "PASS",
+      "details": {
+        "n": 135,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 405,
+        "expected": 405
+      }
+    },
+    {
+      "name": "pure_TT_n=136",
+      "status": "PASS",
+      "details": {
+        "n": 136,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "pure_TT_n=137",
+      "status": "PASS",
+      "details": {
+        "n": 137,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=138",
+      "status": "PASS",
+      "details": {
+        "n": 138,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 18,
+        "expected": 18
+      }
+    },
+    {
+      "name": "pure_TT_n=139",
+      "status": "PASS",
+      "details": {
+        "n": 139,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=140",
+      "status": "PASS",
+      "details": {
+        "n": 140,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 60,
+        "expected": 60
+      }
+    },
+    {
+      "name": "pure_TT_n=141",
+      "status": "PASS",
+      "details": {
+        "n": 141,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=142",
+      "status": "PASS",
+      "details": {
+        "n": 142,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=143",
+      "status": "PASS",
+      "details": {
+        "n": 143,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=144",
+      "status": "PASS",
+      "details": {
+        "n": 144,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 216,
+        "expected": 216
+      }
+    },
+    {
+      "name": "pure_TT_n=145",
+      "status": "PASS",
+      "details": {
+        "n": 145,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 15,
+        "expected": 15
+      }
+    },
+    {
+      "name": "pure_TT_n=146",
+      "status": "PASS",
+      "details": {
+        "n": 146,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=147",
+      "status": "PASS",
+      "details": {
+        "n": 147,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=148",
+      "status": "PASS",
+      "details": {
+        "n": 148,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "pure_TT_n=149",
+      "status": "PASS",
+      "details": {
+        "n": 149,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=150",
+      "status": "PASS",
+      "details": {
+        "n": 150,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 90,
+        "expected": 90
+      }
+    },
+    {
+      "name": "pure_TT_n=151",
+      "status": "PASS",
+      "details": {
+        "n": 151,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=152",
+      "status": "PASS",
+      "details": {
+        "n": 152,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "pure_TT_n=153",
+      "status": "PASS",
+      "details": {
+        "n": 153,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 27,
+        "expected": 27
+      }
+    },
+    {
+      "name": "pure_TT_n=154",
+      "status": "PASS",
+      "details": {
+        "n": 154,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=155",
+      "status": "PASS",
+      "details": {
+        "n": 155,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 15,
+        "expected": 15
+      }
+    },
+    {
+      "name": "pure_TT_n=156",
+      "status": "PASS",
+      "details": {
+        "n": 156,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 36,
+        "expected": 36
+      }
+    },
+    {
+      "name": "pure_TT_n=157",
+      "status": "PASS",
+      "details": {
+        "n": 157,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=158",
+      "status": "PASS",
+      "details": {
+        "n": 158,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=159",
+      "status": "PASS",
+      "details": {
+        "n": 159,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=160",
+      "status": "PASS",
+      "details": {
+        "n": 160,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 120,
+        "expected": 120
+      }
+    },
+    {
+      "name": "pure_TT_n=161",
+      "status": "PASS",
+      "details": {
+        "n": 161,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=162",
+      "status": "PASS",
+      "details": {
+        "n": 162,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 162,
+        "expected": 162
+      }
+    },
+    {
+      "name": "pure_TT_n=163",
+      "status": "PASS",
+      "details": {
+        "n": 163,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=164",
+      "status": "PASS",
+      "details": {
+        "n": 164,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "pure_TT_n=165",
+      "status": "PASS",
+      "details": {
+        "n": 165,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 45,
+        "expected": 45
+      }
+    },
+    {
+      "name": "pure_TT_n=166",
+      "status": "PASS",
+      "details": {
+        "n": 166,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=167",
+      "status": "PASS",
+      "details": {
+        "n": 167,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=168",
+      "status": "PASS",
+      "details": {
+        "n": 168,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 72,
+        "expected": 72
+      }
+    },
+    {
+      "name": "pure_TT_n=169",
+      "status": "PASS",
+      "details": {
+        "n": 169,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=170",
+      "status": "PASS",
+      "details": {
+        "n": 170,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 30,
+        "expected": 30
+      }
+    },
+    {
+      "name": "pure_TT_n=171",
+      "status": "PASS",
+      "details": {
+        "n": 171,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 27,
+        "expected": 27
+      }
+    },
+    {
+      "name": "pure_TT_n=172",
+      "status": "PASS",
+      "details": {
+        "n": 172,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "pure_TT_n=173",
+      "status": "PASS",
+      "details": {
+        "n": 173,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=174",
+      "status": "PASS",
+      "details": {
+        "n": 174,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 18,
+        "expected": 18
+      }
+    },
+    {
+      "name": "pure_TT_n=175",
+      "status": "PASS",
+      "details": {
+        "n": 175,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 15,
+        "expected": 15
+      }
+    },
+    {
+      "name": "pure_TT_n=176",
+      "status": "PASS",
+      "details": {
+        "n": 176,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "pure_TT_n=177",
+      "status": "PASS",
+      "details": {
+        "n": 177,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=178",
+      "status": "PASS",
+      "details": {
+        "n": 178,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=179",
+      "status": "PASS",
+      "details": {
+        "n": 179,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=180",
+      "status": "PASS",
+      "details": {
+        "n": 180,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 540,
+        "expected": 540
+      }
+    },
+    {
+      "name": "pure_TT_n=181",
+      "status": "PASS",
+      "details": {
+        "n": 181,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=182",
+      "status": "PASS",
+      "details": {
+        "n": 182,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=183",
+      "status": "PASS",
+      "details": {
+        "n": 183,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "pure_TT_n=184",
+      "status": "PASS",
+      "details": {
+        "n": 184,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 24,
+        "expected": 24
+      }
+    },
+    {
+      "name": "pure_TT_n=185",
+      "status": "PASS",
+      "details": {
+        "n": 185,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 15,
+        "expected": 15
+      }
+    },
+    {
+      "name": "pure_TT_n=186",
+      "status": "PASS",
+      "details": {
+        "n": 186,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 18,
+        "expected": 18
+      }
+    },
+    {
+      "name": "pure_TT_n=187",
+      "status": "PASS",
+      "details": {
+        "n": 187,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=188",
+      "status": "PASS",
+      "details": {
+        "n": 188,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "pure_TT_n=189",
+      "status": "PASS",
+      "details": {
+        "n": 189,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 81,
+        "expected": 81
+      }
+    },
+    {
+      "name": "pure_TT_n=190",
+      "status": "PASS",
+      "details": {
+        "n": 190,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 30,
+        "expected": 30
+      }
+    },
+    {
+      "name": "pure_TT_n=191",
+      "status": "PASS",
+      "details": {
+        "n": 191,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=192",
+      "status": "PASS",
+      "details": {
+        "n": 192,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 72,
+        "expected": 72
+      }
+    },
+    {
+      "name": "pure_TT_n=193",
+      "status": "PASS",
+      "details": {
+        "n": 193,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=194",
+      "status": "PASS",
+      "details": {
+        "n": 194,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "pure_TT_n=195",
+      "status": "PASS",
+      "details": {
+        "n": 195,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 45,
+        "expected": 45
+      }
+    },
+    {
+      "name": "pure_TT_n=196",
+      "status": "PASS",
+      "details": {
+        "n": 196,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "pure_TT_n=197",
+      "status": "PASS",
+      "details": {
+        "n": 197,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=198",
+      "status": "PASS",
+      "details": {
+        "n": 198,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 54,
+        "expected": 54
+      }
+    },
+    {
+      "name": "pure_TT_n=199",
+      "status": "PASS",
+      "details": {
+        "n": 199,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "pure_TT_n=200",
+      "status": "PASS",
+      "details": {
+        "n": 200,
+        "Y": 27,
+        "K": 60,
+        "integer_enumeration": 120,
+        "expected": 120
+      }
+    },
+    {
+      "name": "input_closed_form_counts_N_0",
+      "status": "PASS",
+      "details": {
+        "parameter": "N",
+        "value_repr": "0",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_N_-1",
+      "status": "PASS",
+      "details": {
+        "parameter": "N",
+        "value_repr": "-1",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_N_True",
+      "status": "PASS",
+      "details": {
+        "parameter": "N",
+        "value_repr": "True",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_N_1.5",
+      "status": "PASS",
+      "details": {
+        "parameter": "N",
+        "value_repr": "1.5",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_N_'2'",
+      "status": "PASS",
+      "details": {
+        "parameter": "N",
+        "value_repr": "'2'",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_N_None",
+      "status": "PASS",
+      "details": {
+        "parameter": "N",
+        "value_repr": "None",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_R_0",
+      "status": "PASS",
+      "details": {
+        "parameter": "R",
+        "value_repr": "0",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_R_-1",
+      "status": "PASS",
+      "details": {
+        "parameter": "R",
+        "value_repr": "-1",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_R_True",
+      "status": "PASS",
+      "details": {
+        "parameter": "R",
+        "value_repr": "True",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_R_1.5",
+      "status": "PASS",
+      "details": {
+        "parameter": "R",
+        "value_repr": "1.5",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_R_'2'",
+      "status": "PASS",
+      "details": {
+        "parameter": "R",
+        "value_repr": "'2'",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_R_None",
+      "status": "PASS",
+      "details": {
+        "parameter": "R",
+        "value_repr": "None",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_Y_0",
+      "status": "PASS",
+      "details": {
+        "parameter": "Y",
+        "value_repr": "0",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_Y_-1",
+      "status": "PASS",
+      "details": {
+        "parameter": "Y",
+        "value_repr": "-1",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_Y_True",
+      "status": "PASS",
+      "details": {
+        "parameter": "Y",
+        "value_repr": "True",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_Y_1.5",
+      "status": "PASS",
+      "details": {
+        "parameter": "Y",
+        "value_repr": "1.5",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_Y_'2'",
+      "status": "PASS",
+      "details": {
+        "parameter": "Y",
+        "value_repr": "'2'",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_Y_None",
+      "status": "PASS",
+      "details": {
+        "parameter": "Y",
+        "value_repr": "None",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_K_0",
+      "status": "PASS",
+      "details": {
+        "parameter": "K",
+        "value_repr": "0",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_K_-1",
+      "status": "PASS",
+      "details": {
+        "parameter": "K",
+        "value_repr": "-1",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_K_True",
+      "status": "PASS",
+      "details": {
+        "parameter": "K",
+        "value_repr": "True",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_K_1.5",
+      "status": "PASS",
+      "details": {
+        "parameter": "K",
+        "value_repr": "1.5",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_K_'2'",
+      "status": "PASS",
+      "details": {
+        "parameter": "K",
+        "value_repr": "'2'",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_closed_form_counts_K_None",
+      "status": "PASS",
+      "details": {
+        "parameter": "K",
+        "value_repr": "None",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_N_0",
+      "status": "PASS",
+      "details": {
+        "parameter": "N",
+        "value_repr": "0",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_N_-1",
+      "status": "PASS",
+      "details": {
+        "parameter": "N",
+        "value_repr": "-1",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_N_True",
+      "status": "PASS",
+      "details": {
+        "parameter": "N",
+        "value_repr": "True",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_N_1.5",
+      "status": "PASS",
+      "details": {
+        "parameter": "N",
+        "value_repr": "1.5",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_N_'2'",
+      "status": "PASS",
+      "details": {
+        "parameter": "N",
+        "value_repr": "'2'",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_N_None",
+      "status": "PASS",
+      "details": {
+        "parameter": "N",
+        "value_repr": "None",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_R_0",
+      "status": "PASS",
+      "details": {
+        "parameter": "R",
+        "value_repr": "0",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_R_-1",
+      "status": "PASS",
+      "details": {
+        "parameter": "R",
+        "value_repr": "-1",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_R_True",
+      "status": "PASS",
+      "details": {
+        "parameter": "R",
+        "value_repr": "True",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_R_1.5",
+      "status": "PASS",
+      "details": {
+        "parameter": "R",
+        "value_repr": "1.5",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_R_'2'",
+      "status": "PASS",
+      "details": {
+        "parameter": "R",
+        "value_repr": "'2'",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_R_None",
+      "status": "PASS",
+      "details": {
+        "parameter": "R",
+        "value_repr": "None",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_Y_0",
+      "status": "PASS",
+      "details": {
+        "parameter": "Y",
+        "value_repr": "0",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_Y_-1",
+      "status": "PASS",
+      "details": {
+        "parameter": "Y",
+        "value_repr": "-1",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_Y_True",
+      "status": "PASS",
+      "details": {
+        "parameter": "Y",
+        "value_repr": "True",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_Y_1.5",
+      "status": "PASS",
+      "details": {
+        "parameter": "Y",
+        "value_repr": "1.5",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_Y_'2'",
+      "status": "PASS",
+      "details": {
+        "parameter": "Y",
+        "value_repr": "'2'",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_Y_None",
+      "status": "PASS",
+      "details": {
+        "parameter": "Y",
+        "value_repr": "None",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_K_0",
+      "status": "PASS",
+      "details": {
+        "parameter": "K",
+        "value_repr": "0",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_K_-1",
+      "status": "PASS",
+      "details": {
+        "parameter": "K",
+        "value_repr": "-1",
+        "expected_exception": "ValueError",
+        "actual_exception": "ValueError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_K_True",
+      "status": "PASS",
+      "details": {
+        "parameter": "K",
+        "value_repr": "True",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_K_1.5",
+      "status": "PASS",
+      "details": {
+        "parameter": "K",
+        "value_repr": "1.5",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_K_'2'",
+      "status": "PASS",
+      "details": {
+        "parameter": "K",
+        "value_repr": "'2'",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    },
+    {
+      "name": "input_exact_arrangement_counts_K_None",
+      "status": "PASS",
+      "details": {
+        "parameter": "K",
+        "value_repr": "None",
+        "expected_exception": "TypeError",
+        "actual_exception": "TypeError"
+      }
+    }
+  ],
+  "status": "PASS",
+  "scope": "Finite consistency evidence only; not proof, novelty or peer review.",
+  "face_count_limit": "The enumerator derives F=E-V; it does not independently enumerate faces.",
+  "pure_TT_limit": "Pure TT(n) concerns G_n alone, not the union G_n plus G_12.",
+  "runner_sha256": "b10a54c9015dbdce05df0924b8c3e6717dc291914257eee9c461658a801a8ddf",
+  "core_sha256": "4ddf34683d88d24c0720b831b30cc5319245485783678efb08f09198503296e2",
+  "core_integrity": "MATCHED_BEFORE_IMPORT",
+  "finished_utc": "2026-11-06T13:31:30.664016+00:00",
+  "elapsed_seconds": 6.765,
+  "completed_checks": 284,
+  "passed_checks": 284,
+  "failed_checks": 0
+}

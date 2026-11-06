@@ -1,0 +1,307 @@
+HV27 OFFLINE CHECKS v01
+Overall status: PASS
+runner_version: "HV27 offline checks v01, 2026-11-06"
+preparation: "Source reviewed only; not executed during preparation."
+started_utc: "2026-11-06T13:31:23.898559+00:00"
+python_version: [3, 14, 7]
+python_implementation: "cpython"
+platform: "win32"
+expected_core_sha256: "4ddf34683d88d24c0720b831b30cc5319245485783678efb08f09198503296e2"
+planned_checks: 284
+scope: "Finite consistency evidence only; not proof, novelty or peer review."
+face_count_limit: "The enumerator derives F=E-V; it does not independently enumerate faces."
+pure_TT_limit: "Pure TT(n) concerns G_n alone, not the union G_n plus G_12."
+runner_sha256: "b10a54c9015dbdce05df0924b8c3e6717dc291914257eee9c461658a801a8ddf"
+core_sha256: "4ddf34683d88d24c0720b831b30cc5319245485783678efb08f09198503296e2"
+core_integrity: "MATCHED_BEFORE_IMPORT"
+finished_utc: "2026-11-06T13:31:30.664016+00:00"
+elapsed_seconds: 6.765
+completed_checks: 284
+passed_checks: 284
+failed_checks: 0
+
+ALL COMPLETED CHECKS
+PASS  known_all_one  {"enumerated": {"E": 5, "F": 3, "T": 1, "V": 2, "nv": 1}, "expected_F": null, "expected_counts": {"E": 5, "F": 3, "T": 1, "V": 2, "nv": 1}, "formula": {"E": 5, "F": 3, "T": 1, "V": 2, "nv": 1}, "parameters": {"K": 1, "N": 1, "R": 1, "Y": 1}}
+PASS  known_HV27  {"enumerated": {"E": 12420, "F": 6264, "T": 108, "V": 6156, "nv": 36}, "expected_F": null, "expected_counts": {"E": 12420, "F": 6264, "T": 108, "V": 6156, "nv": 36}, "formula": {"E": 12420, "F": 6264, "T": 108, "V": 6156, "nv": 36}, "parameters": {"K": 60, "N": 27, "R": 12, "Y": 27}}
+PASS  default_N=15  {"enumerated": {"E": 10440, "F": 5256, "T": 72, "V": 5184, "nv": 24}, "expected_F": 5256, "expected_counts": null, "formula": {"E": 10440, "F": 5256, "T": 72, "V": 5184, "nv": 24}, "parameters": {"K": 60, "N": 15, "R": 12, "Y": 27}}
+PASS  default_N=16  {"enumerated": {"E": 10512, "F": 5280, "T": 48, "V": 5232, "nv": 24}, "expected_F": 5280, "expected_counts": null, "formula": {"E": 10512, "F": 5280, "T": 48, "V": 5232, "nv": 24}, "parameters": {"K": 60, "N": 16, "R": 12, "Y": 27}}
+PASS  default_N=17  {"enumerated": {"E": 11244, "F": 5640, "T": 36, "V": 5604, "nv": 28}, "expected_F": 5640, "expected_counts": null, "formula": {"E": 11244, "F": 5640, "T": 36, "V": 5604, "nv": 28}, "parameters": {"K": 60, "N": 17, "R": 12, "Y": 27}}
+PASS  default_N=18  {"enumerated": {"E": 10440, "F": 5256, "T": 72, "V": 5184, "nv": 24}, "expected_F": 5256, "expected_counts": null, "formula": {"E": 10440, "F": 5256, "T": 72, "V": 5184, "nv": 24}, "parameters": {"K": 60, "N": 18, "R": 12, "Y": 27}}
+PASS  default_N=19  {"enumerated": {"E": 11592, "F": 5814, "T": 36, "V": 5778, "nv": 30}, "expected_F": 5814, "expected_counts": null, "formula": {"E": 11592, "F": 5814, "T": 36, "V": 5778, "nv": 30}, "parameters": {"K": 60, "N": 19, "R": 12, "Y": 27}}
+PASS  default_N=20  {"enumerated": {"E": 11100, "F": 5592, "T": 84, "V": 5508, "nv": 28}, "expected_F": 5592, "expected_counts": null, "formula": {"E": 11100, "F": 5592, "T": 84, "V": 5508, "nv": 28}, "parameters": {"K": 60, "N": 20, "R": 12, "Y": 27}}
+PASS  default_N=21  {"enumerated": {"E": 11592, "F": 5814, "T": 36, "V": 5778, "nv": 30}, "expected_F": 5814, "expected_counts": null, "formula": {"E": 11592, "F": 5814, "T": 36, "V": 5778, "nv": 30}, "parameters": {"K": 60, "N": 21, "R": 12, "Y": 27}}
+PASS  default_N=22  {"enumerated": {"E": 11940, "F": 5988, "T": 36, "V": 5952, "nv": 32}, "expected_F": 5988, "expected_counts": null, "formula": {"E": 11940, "F": 5988, "T": 36, "V": 5952, "nv": 32}, "parameters": {"K": 60, "N": 22, "R": 12, "Y": 27}}
+PASS  default_N=23  {"enumerated": {"E": 12288, "F": 6162, "T": 36, "V": 6126, "nv": 34}, "expected_F": 6162, "expected_counts": null, "formula": {"E": 12288, "F": 6162, "T": 36, "V": 6126, "nv": 34}, "parameters": {"K": 60, "N": 23, "R": 12, "Y": 27}}
+PASS  default_N=24  {"enumerated": {"E": 10440, "F": 5256, "T": 72, "V": 5184, "nv": 24}, "expected_F": 5256, "expected_counts": null, "formula": {"E": 10440, "F": 5256, "T": 72, "V": 5184, "nv": 24}, "parameters": {"K": 60, "N": 24, "R": 12, "Y": 27}}
+PASS  default_N=25  {"enumerated": {"E": 12600, "F": 6324, "T": 48, "V": 6276, "nv": 36}, "expected_F": 6324, "expected_counts": null, "formula": {"E": 12600, "F": 6324, "T": 48, "V": 6276, "nv": 36}, "parameters": {"K": 60, "N": 25, "R": 12, "Y": 27}}
+PASS  default_N=26  {"enumerated": {"E": 12636, "F": 6336, "T": 36, "V": 6300, "nv": 36}, "expected_F": 6336, "expected_counts": null, "formula": {"E": 12636, "F": 6336, "T": 36, "V": 6300, "nv": 36}, "parameters": {"K": 60, "N": 26, "R": 12, "Y": 27}}
+PASS  default_N=27  {"enumerated": {"E": 12420, "F": 6264, "T": 108, "V": 6156, "nv": 36}, "expected_F": 6264, "expected_counts": null, "formula": {"E": 12420, "F": 6264, "T": 108, "V": 6156, "nv": 36}, "parameters": {"K": 60, "N": 27, "R": 12, "Y": 27}}
+PASS  default_N=28  {"enumerated": {"E": 12636, "F": 6336, "T": 36, "V": 6300, "nv": 36}, "expected_F": 6336, "expected_counts": null, "formula": {"E": 12636, "F": 6336, "T": 36, "V": 6300, "nv": 36}, "parameters": {"K": 60, "N": 28, "R": 12, "Y": 27}}
+PASS  default_N=29  {"enumerated": {"E": 13332, "F": 6684, "T": 36, "V": 6648, "nv": 40}, "expected_F": 6684, "expected_counts": null, "formula": {"E": 13332, "F": 6684, "T": 36, "V": 6648, "nv": 40}, "parameters": {"K": 60, "N": 29, "R": 12, "Y": 27}}
+PASS  default_N=30  {"enumerated": {"E": 12420, "F": 6264, "T": 108, "V": 6156, "nv": 36}, "expected_F": 6264, "expected_counts": null, "formula": {"E": 12420, "F": 6264, "T": 108, "V": 6156, "nv": 36}, "parameters": {"K": 60, "N": 30, "R": 12, "Y": 27}}
+PASS  default_N=31  {"enumerated": {"E": 13680, "F": 6858, "T": 36, "V": 6822, "nv": 42}, "expected_F": 6858, "expected_counts": null, "formula": {"E": 13680, "F": 6858, "T": 36, "V": 6822, "nv": 42}, "parameters": {"K": 60, "N": 31, "R": 12, "Y": 27}}
+PASS  default_N=32  {"enumerated": {"E": 13296, "F": 6672, "T": 48, "V": 6624, "nv": 40}, "expected_F": 6672, "expected_counts": null, "formula": {"E": 13296, "F": 6672, "T": 48, "V": 6624, "nv": 40}, "parameters": {"K": 60, "N": 32, "R": 12, "Y": 27}}
+PASS  default_N=33  {"enumerated": {"E": 13680, "F": 6858, "T": 36, "V": 6822, "nv": 42}, "expected_F": 6858, "expected_counts": null, "formula": {"E": 13680, "F": 6858, "T": 36, "V": 6822, "nv": 42}, "parameters": {"K": 60, "N": 33, "R": 12, "Y": 27}}
+PASS  default_N=34  {"enumerated": {"E": 14028, "F": 7032, "T": 36, "V": 6996, "nv": 44}, "expected_F": 7032, "expected_counts": null, "formula": {"E": 14028, "F": 7032, "T": 36, "V": 6996, "nv": 44}, "parameters": {"K": 60, "N": 34, "R": 12, "Y": 27}}
+PASS  default_N=35  {"enumerated": {"E": 14340, "F": 7194, "T": 48, "V": 7146, "nv": 46}, "expected_F": 7194, "expected_counts": null, "formula": {"E": 14340, "F": 7194, "T": 48, "V": 7146, "nv": 46}, "parameters": {"K": 60, "N": 35, "R": 12, "Y": 27}}
+PASS  default_N=36  {"enumerated": {"E": 12420, "F": 6264, "T": 108, "V": 6156, "nv": 36}, "expected_F": 6264, "expected_counts": null, "formula": {"E": 12420, "F": 6264, "T": 108, "V": 6156, "nv": 36}, "parameters": {"K": 60, "N": 36, "R": 12, "Y": 27}}
+PASS  default_N=37  {"enumerated": {"E": 14724, "F": 7380, "T": 36, "V": 7344, "nv": 48}, "expected_F": 7380, "expected_counts": null, "formula": {"E": 14724, "F": 7380, "T": 36, "V": 7344, "nv": 48}, "parameters": {"K": 60, "N": 37, "R": 12, "Y": 27}}
+PASS  default_N=38  {"enumerated": {"E": 14724, "F": 7380, "T": 36, "V": 7344, "nv": 48}, "expected_F": 7380, "expected_counts": null, "formula": {"E": 14724, "F": 7380, "T": 36, "V": 7344, "nv": 48}, "parameters": {"K": 60, "N": 38, "R": 12, "Y": 27}}
+PASS  default_N=39  {"enumerated": {"E": 14724, "F": 7380, "T": 36, "V": 7344, "nv": 48}, "expected_F": 7380, "expected_counts": null, "formula": {"E": 14724, "F": 7380, "T": 36, "V": 7344, "nv": 48}, "parameters": {"K": 60, "N": 39, "R": 12, "Y": 27}}
+PASS  default_N=40  {"enumerated": {"E": 14400, "F": 7272, "T": 144, "V": 7128, "nv": 48}, "expected_F": 7272, "expected_counts": null, "formula": {"E": 14400, "F": 7272, "T": 144, "V": 7128, "nv": 48}, "parameters": {"K": 60, "N": 40, "R": 12, "Y": 27}}
+PASS  generic_1  {"enumerated": {"E": 6, "F": 4, "T": 2, "V": 2, "nv": 2}, "expected_F": null, "expected_counts": null, "formula": {"E": 6, "F": 4, "T": 2, "V": 2, "nv": 2}, "parameters": {"K": 1, "N": 2, "R": 2, "Y": 1}}
+PASS  generic_2  {"enumerated": {"E": 18, "F": 10, "T": 2, "V": 8, "nv": 1}, "expected_F": null, "expected_counts": null, "formula": {"E": 18, "F": 10, "T": 2, "V": 8, "nv": 1}, "parameters": {"K": 2, "N": 1, "R": 1, "Y": 2}}
+PASS  generic_3  {"enumerated": {"E": 146, "F": 74, "T": 2, "V": 72, "nv": 4}, "expected_F": null, "expected_counts": null, "formula": {"E": 146, "F": 74, "T": 2, "V": 72, "nv": 4}, "parameters": {"K": 5, "N": 3, "R": 2, "Y": 4}}
+PASS  generic_4  {"enumerated": {"E": 218, "F": 112, "T": 6, "V": 106, "nv": 7}, "expected_F": null, "expected_counts": null, "formula": {"E": 218, "F": 112, "T": 6, "V": 106, "nv": 7}, "parameters": {"K": 4, "N": 5, "R": 3, "Y": 6}}
+PASS  generic_5  {"enumerated": {"E": 326, "F": 164, "T": 2, "V": 162, "nv": 8}, "expected_F": null, "expected_counts": null, "formula": {"E": 326, "F": 164, "T": 2, "V": 162, "nv": 8}, "parameters": {"K": 7, "N": 4, "R": 6, "Y": 5}}
+PASS  generic_6  {"enumerated": {"E": 584, "F": 296, "T": 8, "V": 288, "nv": 8}, "expected_F": null, "expected_counts": null, "formula": {"E": 584, "F": 296, "T": 8, "V": 288, "nv": 8}, "parameters": {"K": 10, "N": 6, "R": 4, "Y": 8}}
+PASS  generic_7  {"enumerated": {"E": 537, "F": 270, "T": 3, "V": 267, "nv": 11}, "expected_F": null, "expected_counts": null, "formula": {"E": 537, "F": 270, "T": 3, "V": 267, "nv": 11}, "parameters": {"K": 6, "N": 7, "R": 5, "Y": 9}}
+PASS  generic_8  {"enumerated": {"E": 22, "F": 12, "T": 2, "V": 10, "nv": 2}, "expected_F": null, "expected_counts": null, "formula": {"E": 22, "F": 12, "T": 2, "V": 10, "nv": 2}, "parameters": {"K": 3, "N": 1, "R": 2, "Y": 1}}
+PASS  pure_TT_n=1  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 1}
+PASS  pure_TT_n=2  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 2}
+PASS  pure_TT_n=3  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 3}
+PASS  pure_TT_n=4  {"K": 60, "Y": 27, "expected": 12, "integer_enumeration": 12, "n": 4}
+PASS  pure_TT_n=5  {"K": 60, "Y": 27, "expected": 15, "integer_enumeration": 15, "n": 5}
+PASS  pure_TT_n=6  {"K": 60, "Y": 27, "expected": 18, "integer_enumeration": 18, "n": 6}
+PASS  pure_TT_n=7  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 7}
+PASS  pure_TT_n=8  {"K": 60, "Y": 27, "expected": 24, "integer_enumeration": 24, "n": 8}
+PASS  pure_TT_n=9  {"K": 60, "Y": 27, "expected": 27, "integer_enumeration": 27, "n": 9}
+PASS  pure_TT_n=10  {"K": 60, "Y": 27, "expected": 30, "integer_enumeration": 30, "n": 10}
+PASS  pure_TT_n=11  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 11}
+PASS  pure_TT_n=12  {"K": 60, "Y": 27, "expected": 36, "integer_enumeration": 36, "n": 12}
+PASS  pure_TT_n=13  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 13}
+PASS  pure_TT_n=14  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 14}
+PASS  pure_TT_n=15  {"K": 60, "Y": 27, "expected": 45, "integer_enumeration": 45, "n": 15}
+PASS  pure_TT_n=16  {"K": 60, "Y": 27, "expected": 24, "integer_enumeration": 24, "n": 16}
+PASS  pure_TT_n=17  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 17}
+PASS  pure_TT_n=18  {"K": 60, "Y": 27, "expected": 54, "integer_enumeration": 54, "n": 18}
+PASS  pure_TT_n=19  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 19}
+PASS  pure_TT_n=20  {"K": 60, "Y": 27, "expected": 60, "integer_enumeration": 60, "n": 20}
+PASS  pure_TT_n=21  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 21}
+PASS  pure_TT_n=22  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 22}
+PASS  pure_TT_n=23  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 23}
+PASS  pure_TT_n=24  {"K": 60, "Y": 27, "expected": 72, "integer_enumeration": 72, "n": 24}
+PASS  pure_TT_n=25  {"K": 60, "Y": 27, "expected": 15, "integer_enumeration": 15, "n": 25}
+PASS  pure_TT_n=26  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 26}
+PASS  pure_TT_n=27  {"K": 60, "Y": 27, "expected": 81, "integer_enumeration": 81, "n": 27}
+PASS  pure_TT_n=28  {"K": 60, "Y": 27, "expected": 12, "integer_enumeration": 12, "n": 28}
+PASS  pure_TT_n=29  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 29}
+PASS  pure_TT_n=30  {"K": 60, "Y": 27, "expected": 90, "integer_enumeration": 90, "n": 30}
+PASS  pure_TT_n=31  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 31}
+PASS  pure_TT_n=32  {"K": 60, "Y": 27, "expected": 24, "integer_enumeration": 24, "n": 32}
+PASS  pure_TT_n=33  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 33}
+PASS  pure_TT_n=34  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 34}
+PASS  pure_TT_n=35  {"K": 60, "Y": 27, "expected": 15, "integer_enumeration": 15, "n": 35}
+PASS  pure_TT_n=36  {"K": 60, "Y": 27, "expected": 108, "integer_enumeration": 108, "n": 36}
+PASS  pure_TT_n=37  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 37}
+PASS  pure_TT_n=38  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 38}
+PASS  pure_TT_n=39  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 39}
+PASS  pure_TT_n=40  {"K": 60, "Y": 27, "expected": 120, "integer_enumeration": 120, "n": 40}
+PASS  pure_TT_n=41  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 41}
+PASS  pure_TT_n=42  {"K": 60, "Y": 27, "expected": 18, "integer_enumeration": 18, "n": 42}
+PASS  pure_TT_n=43  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 43}
+PASS  pure_TT_n=44  {"K": 60, "Y": 27, "expected": 12, "integer_enumeration": 12, "n": 44}
+PASS  pure_TT_n=45  {"K": 60, "Y": 27, "expected": 135, "integer_enumeration": 135, "n": 45}
+PASS  pure_TT_n=46  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 46}
+PASS  pure_TT_n=47  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 47}
+PASS  pure_TT_n=48  {"K": 60, "Y": 27, "expected": 72, "integer_enumeration": 72, "n": 48}
+PASS  pure_TT_n=49  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 49}
+PASS  pure_TT_n=50  {"K": 60, "Y": 27, "expected": 30, "integer_enumeration": 30, "n": 50}
+PASS  pure_TT_n=51  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 51}
+PASS  pure_TT_n=52  {"K": 60, "Y": 27, "expected": 12, "integer_enumeration": 12, "n": 52}
+PASS  pure_TT_n=53  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 53}
+PASS  pure_TT_n=54  {"K": 60, "Y": 27, "expected": 162, "integer_enumeration": 162, "n": 54}
+PASS  pure_TT_n=55  {"K": 60, "Y": 27, "expected": 15, "integer_enumeration": 15, "n": 55}
+PASS  pure_TT_n=56  {"K": 60, "Y": 27, "expected": 24, "integer_enumeration": 24, "n": 56}
+PASS  pure_TT_n=57  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 57}
+PASS  pure_TT_n=58  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 58}
+PASS  pure_TT_n=59  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 59}
+PASS  pure_TT_n=60  {"K": 60, "Y": 27, "expected": 180, "integer_enumeration": 180, "n": 60}
+PASS  pure_TT_n=61  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 61}
+PASS  pure_TT_n=62  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 62}
+PASS  pure_TT_n=63  {"K": 60, "Y": 27, "expected": 27, "integer_enumeration": 27, "n": 63}
+PASS  pure_TT_n=64  {"K": 60, "Y": 27, "expected": 24, "integer_enumeration": 24, "n": 64}
+PASS  pure_TT_n=65  {"K": 60, "Y": 27, "expected": 15, "integer_enumeration": 15, "n": 65}
+PASS  pure_TT_n=66  {"K": 60, "Y": 27, "expected": 18, "integer_enumeration": 18, "n": 66}
+PASS  pure_TT_n=67  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 67}
+PASS  pure_TT_n=68  {"K": 60, "Y": 27, "expected": 12, "integer_enumeration": 12, "n": 68}
+PASS  pure_TT_n=69  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 69}
+PASS  pure_TT_n=70  {"K": 60, "Y": 27, "expected": 30, "integer_enumeration": 30, "n": 70}
+PASS  pure_TT_n=71  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 71}
+PASS  pure_TT_n=72  {"K": 60, "Y": 27, "expected": 216, "integer_enumeration": 216, "n": 72}
+PASS  pure_TT_n=73  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 73}
+PASS  pure_TT_n=74  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 74}
+PASS  pure_TT_n=75  {"K": 60, "Y": 27, "expected": 45, "integer_enumeration": 45, "n": 75}
+PASS  pure_TT_n=76  {"K": 60, "Y": 27, "expected": 12, "integer_enumeration": 12, "n": 76}
+PASS  pure_TT_n=77  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 77}
+PASS  pure_TT_n=78  {"K": 60, "Y": 27, "expected": 18, "integer_enumeration": 18, "n": 78}
+PASS  pure_TT_n=79  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 79}
+PASS  pure_TT_n=80  {"K": 60, "Y": 27, "expected": 120, "integer_enumeration": 120, "n": 80}
+PASS  pure_TT_n=81  {"K": 60, "Y": 27, "expected": 81, "integer_enumeration": 81, "n": 81}
+PASS  pure_TT_n=82  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 82}
+PASS  pure_TT_n=83  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 83}
+PASS  pure_TT_n=84  {"K": 60, "Y": 27, "expected": 36, "integer_enumeration": 36, "n": 84}
+PASS  pure_TT_n=85  {"K": 60, "Y": 27, "expected": 15, "integer_enumeration": 15, "n": 85}
+PASS  pure_TT_n=86  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 86}
+PASS  pure_TT_n=87  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 87}
+PASS  pure_TT_n=88  {"K": 60, "Y": 27, "expected": 24, "integer_enumeration": 24, "n": 88}
+PASS  pure_TT_n=89  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 89}
+PASS  pure_TT_n=90  {"K": 60, "Y": 27, "expected": 270, "integer_enumeration": 270, "n": 90}
+PASS  pure_TT_n=91  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 91}
+PASS  pure_TT_n=92  {"K": 60, "Y": 27, "expected": 12, "integer_enumeration": 12, "n": 92}
+PASS  pure_TT_n=93  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 93}
+PASS  pure_TT_n=94  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 94}
+PASS  pure_TT_n=95  {"K": 60, "Y": 27, "expected": 15, "integer_enumeration": 15, "n": 95}
+PASS  pure_TT_n=96  {"K": 60, "Y": 27, "expected": 72, "integer_enumeration": 72, "n": 96}
+PASS  pure_TT_n=97  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 97}
+PASS  pure_TT_n=98  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 98}
+PASS  pure_TT_n=99  {"K": 60, "Y": 27, "expected": 27, "integer_enumeration": 27, "n": 99}
+PASS  pure_TT_n=100  {"K": 60, "Y": 27, "expected": 60, "integer_enumeration": 60, "n": 100}
+PASS  pure_TT_n=101  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 101}
+PASS  pure_TT_n=102  {"K": 60, "Y": 27, "expected": 18, "integer_enumeration": 18, "n": 102}
+PASS  pure_TT_n=103  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 103}
+PASS  pure_TT_n=104  {"K": 60, "Y": 27, "expected": 24, "integer_enumeration": 24, "n": 104}
+PASS  pure_TT_n=105  {"K": 60, "Y": 27, "expected": 45, "integer_enumeration": 45, "n": 105}
+PASS  pure_TT_n=106  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 106}
+PASS  pure_TT_n=107  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 107}
+PASS  pure_TT_n=108  {"K": 60, "Y": 27, "expected": 324, "integer_enumeration": 324, "n": 108}
+PASS  pure_TT_n=109  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 109}
+PASS  pure_TT_n=110  {"K": 60, "Y": 27, "expected": 30, "integer_enumeration": 30, "n": 110}
+PASS  pure_TT_n=111  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 111}
+PASS  pure_TT_n=112  {"K": 60, "Y": 27, "expected": 24, "integer_enumeration": 24, "n": 112}
+PASS  pure_TT_n=113  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 113}
+PASS  pure_TT_n=114  {"K": 60, "Y": 27, "expected": 18, "integer_enumeration": 18, "n": 114}
+PASS  pure_TT_n=115  {"K": 60, "Y": 27, "expected": 15, "integer_enumeration": 15, "n": 115}
+PASS  pure_TT_n=116  {"K": 60, "Y": 27, "expected": 12, "integer_enumeration": 12, "n": 116}
+PASS  pure_TT_n=117  {"K": 60, "Y": 27, "expected": 27, "integer_enumeration": 27, "n": 117}
+PASS  pure_TT_n=118  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 118}
+PASS  pure_TT_n=119  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 119}
+PASS  pure_TT_n=120  {"K": 60, "Y": 27, "expected": 360, "integer_enumeration": 360, "n": 120}
+PASS  pure_TT_n=121  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 121}
+PASS  pure_TT_n=122  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 122}
+PASS  pure_TT_n=123  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 123}
+PASS  pure_TT_n=124  {"K": 60, "Y": 27, "expected": 12, "integer_enumeration": 12, "n": 124}
+PASS  pure_TT_n=125  {"K": 60, "Y": 27, "expected": 15, "integer_enumeration": 15, "n": 125}
+PASS  pure_TT_n=126  {"K": 60, "Y": 27, "expected": 54, "integer_enumeration": 54, "n": 126}
+PASS  pure_TT_n=127  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 127}
+PASS  pure_TT_n=128  {"K": 60, "Y": 27, "expected": 24, "integer_enumeration": 24, "n": 128}
+PASS  pure_TT_n=129  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 129}
+PASS  pure_TT_n=130  {"K": 60, "Y": 27, "expected": 30, "integer_enumeration": 30, "n": 130}
+PASS  pure_TT_n=131  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 131}
+PASS  pure_TT_n=132  {"K": 60, "Y": 27, "expected": 36, "integer_enumeration": 36, "n": 132}
+PASS  pure_TT_n=133  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 133}
+PASS  pure_TT_n=134  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 134}
+PASS  pure_TT_n=135  {"K": 60, "Y": 27, "expected": 405, "integer_enumeration": 405, "n": 135}
+PASS  pure_TT_n=136  {"K": 60, "Y": 27, "expected": 24, "integer_enumeration": 24, "n": 136}
+PASS  pure_TT_n=137  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 137}
+PASS  pure_TT_n=138  {"K": 60, "Y": 27, "expected": 18, "integer_enumeration": 18, "n": 138}
+PASS  pure_TT_n=139  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 139}
+PASS  pure_TT_n=140  {"K": 60, "Y": 27, "expected": 60, "integer_enumeration": 60, "n": 140}
+PASS  pure_TT_n=141  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 141}
+PASS  pure_TT_n=142  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 142}
+PASS  pure_TT_n=143  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 143}
+PASS  pure_TT_n=144  {"K": 60, "Y": 27, "expected": 216, "integer_enumeration": 216, "n": 144}
+PASS  pure_TT_n=145  {"K": 60, "Y": 27, "expected": 15, "integer_enumeration": 15, "n": 145}
+PASS  pure_TT_n=146  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 146}
+PASS  pure_TT_n=147  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 147}
+PASS  pure_TT_n=148  {"K": 60, "Y": 27, "expected": 12, "integer_enumeration": 12, "n": 148}
+PASS  pure_TT_n=149  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 149}
+PASS  pure_TT_n=150  {"K": 60, "Y": 27, "expected": 90, "integer_enumeration": 90, "n": 150}
+PASS  pure_TT_n=151  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 151}
+PASS  pure_TT_n=152  {"K": 60, "Y": 27, "expected": 24, "integer_enumeration": 24, "n": 152}
+PASS  pure_TT_n=153  {"K": 60, "Y": 27, "expected": 27, "integer_enumeration": 27, "n": 153}
+PASS  pure_TT_n=154  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 154}
+PASS  pure_TT_n=155  {"K": 60, "Y": 27, "expected": 15, "integer_enumeration": 15, "n": 155}
+PASS  pure_TT_n=156  {"K": 60, "Y": 27, "expected": 36, "integer_enumeration": 36, "n": 156}
+PASS  pure_TT_n=157  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 157}
+PASS  pure_TT_n=158  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 158}
+PASS  pure_TT_n=159  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 159}
+PASS  pure_TT_n=160  {"K": 60, "Y": 27, "expected": 120, "integer_enumeration": 120, "n": 160}
+PASS  pure_TT_n=161  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 161}
+PASS  pure_TT_n=162  {"K": 60, "Y": 27, "expected": 162, "integer_enumeration": 162, "n": 162}
+PASS  pure_TT_n=163  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 163}
+PASS  pure_TT_n=164  {"K": 60, "Y": 27, "expected": 12, "integer_enumeration": 12, "n": 164}
+PASS  pure_TT_n=165  {"K": 60, "Y": 27, "expected": 45, "integer_enumeration": 45, "n": 165}
+PASS  pure_TT_n=166  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 166}
+PASS  pure_TT_n=167  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 167}
+PASS  pure_TT_n=168  {"K": 60, "Y": 27, "expected": 72, "integer_enumeration": 72, "n": 168}
+PASS  pure_TT_n=169  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 169}
+PASS  pure_TT_n=170  {"K": 60, "Y": 27, "expected": 30, "integer_enumeration": 30, "n": 170}
+PASS  pure_TT_n=171  {"K": 60, "Y": 27, "expected": 27, "integer_enumeration": 27, "n": 171}
+PASS  pure_TT_n=172  {"K": 60, "Y": 27, "expected": 12, "integer_enumeration": 12, "n": 172}
+PASS  pure_TT_n=173  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 173}
+PASS  pure_TT_n=174  {"K": 60, "Y": 27, "expected": 18, "integer_enumeration": 18, "n": 174}
+PASS  pure_TT_n=175  {"K": 60, "Y": 27, "expected": 15, "integer_enumeration": 15, "n": 175}
+PASS  pure_TT_n=176  {"K": 60, "Y": 27, "expected": 24, "integer_enumeration": 24, "n": 176}
+PASS  pure_TT_n=177  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 177}
+PASS  pure_TT_n=178  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 178}
+PASS  pure_TT_n=179  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 179}
+PASS  pure_TT_n=180  {"K": 60, "Y": 27, "expected": 540, "integer_enumeration": 540, "n": 180}
+PASS  pure_TT_n=181  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 181}
+PASS  pure_TT_n=182  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 182}
+PASS  pure_TT_n=183  {"K": 60, "Y": 27, "expected": 9, "integer_enumeration": 9, "n": 183}
+PASS  pure_TT_n=184  {"K": 60, "Y": 27, "expected": 24, "integer_enumeration": 24, "n": 184}
+PASS  pure_TT_n=185  {"K": 60, "Y": 27, "expected": 15, "integer_enumeration": 15, "n": 185}
+PASS  pure_TT_n=186  {"K": 60, "Y": 27, "expected": 18, "integer_enumeration": 18, "n": 186}
+PASS  pure_TT_n=187  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 187}
+PASS  pure_TT_n=188  {"K": 60, "Y": 27, "expected": 12, "integer_enumeration": 12, "n": 188}
+PASS  pure_TT_n=189  {"K": 60, "Y": 27, "expected": 81, "integer_enumeration": 81, "n": 189}
+PASS  pure_TT_n=190  {"K": 60, "Y": 27, "expected": 30, "integer_enumeration": 30, "n": 190}
+PASS  pure_TT_n=191  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 191}
+PASS  pure_TT_n=192  {"K": 60, "Y": 27, "expected": 72, "integer_enumeration": 72, "n": 192}
+PASS  pure_TT_n=193  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 193}
+PASS  pure_TT_n=194  {"K": 60, "Y": 27, "expected": 6, "integer_enumeration": 6, "n": 194}
+PASS  pure_TT_n=195  {"K": 60, "Y": 27, "expected": 45, "integer_enumeration": 45, "n": 195}
+PASS  pure_TT_n=196  {"K": 60, "Y": 27, "expected": 12, "integer_enumeration": 12, "n": 196}
+PASS  pure_TT_n=197  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 197}
+PASS  pure_TT_n=198  {"K": 60, "Y": 27, "expected": 54, "integer_enumeration": 54, "n": 198}
+PASS  pure_TT_n=199  {"K": 60, "Y": 27, "expected": 3, "integer_enumeration": 3, "n": 199}
+PASS  pure_TT_n=200  {"K": 60, "Y": 27, "expected": 120, "integer_enumeration": 120, "n": 200}
+PASS  input_closed_form_counts_N_0  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "N", "value_repr": "0"}
+PASS  input_closed_form_counts_N_-1  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "N", "value_repr": "-1"}
+PASS  input_closed_form_counts_N_True  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "N", "value_repr": "True"}
+PASS  input_closed_form_counts_N_1.5  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "N", "value_repr": "1.5"}
+PASS  input_closed_form_counts_N_'2'  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "N", "value_repr": "'2'"}
+PASS  input_closed_form_counts_N_None  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "N", "value_repr": "None"}
+PASS  input_closed_form_counts_R_0  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "R", "value_repr": "0"}
+PASS  input_closed_form_counts_R_-1  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "R", "value_repr": "-1"}
+PASS  input_closed_form_counts_R_True  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "R", "value_repr": "True"}
+PASS  input_closed_form_counts_R_1.5  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "R", "value_repr": "1.5"}
+PASS  input_closed_form_counts_R_'2'  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "R", "value_repr": "'2'"}
+PASS  input_closed_form_counts_R_None  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "R", "value_repr": "None"}
+PASS  input_closed_form_counts_Y_0  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "Y", "value_repr": "0"}
+PASS  input_closed_form_counts_Y_-1  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "Y", "value_repr": "-1"}
+PASS  input_closed_form_counts_Y_True  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "Y", "value_repr": "True"}
+PASS  input_closed_form_counts_Y_1.5  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "Y", "value_repr": "1.5"}
+PASS  input_closed_form_counts_Y_'2'  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "Y", "value_repr": "'2'"}
+PASS  input_closed_form_counts_Y_None  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "Y", "value_repr": "None"}
+PASS  input_closed_form_counts_K_0  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "K", "value_repr": "0"}
+PASS  input_closed_form_counts_K_-1  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "K", "value_repr": "-1"}
+PASS  input_closed_form_counts_K_True  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "K", "value_repr": "True"}
+PASS  input_closed_form_counts_K_1.5  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "K", "value_repr": "1.5"}
+PASS  input_closed_form_counts_K_'2'  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "K", "value_repr": "'2'"}
+PASS  input_closed_form_counts_K_None  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "K", "value_repr": "None"}
+PASS  input_exact_arrangement_counts_N_0  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "N", "value_repr": "0"}
+PASS  input_exact_arrangement_counts_N_-1  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "N", "value_repr": "-1"}
+PASS  input_exact_arrangement_counts_N_True  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "N", "value_repr": "True"}
+PASS  input_exact_arrangement_counts_N_1.5  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "N", "value_repr": "1.5"}
+PASS  input_exact_arrangement_counts_N_'2'  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "N", "value_repr": "'2'"}
+PASS  input_exact_arrangement_counts_N_None  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "N", "value_repr": "None"}
+PASS  input_exact_arrangement_counts_R_0  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "R", "value_repr": "0"}
+PASS  input_exact_arrangement_counts_R_-1  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "R", "value_repr": "-1"}
+PASS  input_exact_arrangement_counts_R_True  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "R", "value_repr": "True"}
+PASS  input_exact_arrangement_counts_R_1.5  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "R", "value_repr": "1.5"}
+PASS  input_exact_arrangement_counts_R_'2'  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "R", "value_repr": "'2'"}
+PASS  input_exact_arrangement_counts_R_None  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "R", "value_repr": "None"}
+PASS  input_exact_arrangement_counts_Y_0  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "Y", "value_repr": "0"}
+PASS  input_exact_arrangement_counts_Y_-1  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "Y", "value_repr": "-1"}
+PASS  input_exact_arrangement_counts_Y_True  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "Y", "value_repr": "True"}
+PASS  input_exact_arrangement_counts_Y_1.5  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "Y", "value_repr": "1.5"}
+PASS  input_exact_arrangement_counts_Y_'2'  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "Y", "value_repr": "'2'"}
+PASS  input_exact_arrangement_counts_Y_None  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "Y", "value_repr": "None"}
+PASS  input_exact_arrangement_counts_K_0  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "K", "value_repr": "0"}
+PASS  input_exact_arrangement_counts_K_-1  {"actual_exception": "ValueError", "expected_exception": "ValueError", "parameter": "K", "value_repr": "-1"}
+PASS  input_exact_arrangement_counts_K_True  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "K", "value_repr": "True"}
+PASS  input_exact_arrangement_counts_K_1.5  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "K", "value_repr": "1.5"}
+PASS  input_exact_arrangement_counts_K_'2'  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "K", "value_repr": "'2'"}
+PASS  input_exact_arrangement_counts_K_None  {"actual_exception": "TypeError", "expected_exception": "TypeError", "parameter": "K", "value_repr": "None"}

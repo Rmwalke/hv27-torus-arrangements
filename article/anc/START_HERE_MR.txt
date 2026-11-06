@@ -1,0 +1,15 @@
+HV27 — पूरक code व आधीचे runtime reports
+
+सध्याच्या सूचना या folderमधील README.txtमध्ये आहेत.
+RUN_HV27_WINDOWS.batच्या error messageमधील या filenameचा संदर्भ चालू
+राहावा म्हणून ही नवी सूचना-फाइल जोडली आहे. Launcher/code बदललेले नाहीत.
+
+मूळ software: MIT License — LICENSE वाचा.
+ही स्वतंत्र सूचना व इतर prose documentation: CC BY 4.0.
+Copyright (c) 2026 Rushikesh Murlidhar Walke
+https://creativecommons.org/licenses/by/4.0/
+
+validation/मध्ये वापरकर्त्याच्या आधीच्या 284/284 PASS runचे reports आहेत.
+सहाय्यकाने संशोधनाचा code पुन्हा चालवलेला नाही. नवा run आवश्यक असल्याचा
+दावा या सूचनेत नाही. पुनरुत्पादन हवे असल्यास README.txtमधील सूचना वाचा.
+सर्व फाइल्सचा license scope ../LICENSING_SCOPE.txtमध्ये स्पष्ट आहे.

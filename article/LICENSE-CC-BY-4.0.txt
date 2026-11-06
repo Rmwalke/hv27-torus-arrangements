@@ -1,0 +1,30 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+SPDX-License-Identifier: CC-BY-4.0
+
+Copyright (c) 2026 Rushikesh Murlidhar Walke
+
+An Explicit GCD Evaluation for Three-Direction Torus Arrangements,
+its manuscript source main.tex, and the separately identified documentation
+are licensed under the Creative Commons Attribution 4.0 International
+Public License, to the extent of copyright and similar rights held by the
+licensor. The license applies to the accompanying article PDF as well.
+
+License: https://creativecommons.org/licenses/by/4.0/
+Full legal terms: https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+This notice applies the standard license by reference; it does not replace
+or modify its legal terms. See LICENSING_SCOPE.txt for the exact file scopes.
+The original supplementary software is separately licensed under the MIT
+License in anc/LICENSE.
+
+Suggested attribution (reasonable equivalent formats are acceptable):
+Rushikesh Murlidhar Walke, An Explicit GCD Evaluation for Three-Direction
+Torus Arrangements, author-review copy v08, 6 November 2026. CC BY 4.0.
+ORCID: https://orcid.org/0009-0006-6749-5660
+Include the license link, identify modifications, and retain applicable
+notices as required by the license. No HV27 public DOI has yet been assigned.
+
+Referenced third-party publications, external software dependencies and
+their rights are not relicensed by this notice. Mathematical facts and
+other material outside copyright or similar rights are not made subject
+to new exclusive rights by applying this license.
