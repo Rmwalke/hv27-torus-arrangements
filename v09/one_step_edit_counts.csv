@@ -1,0 +1,3 @@
+partition_group,nakshatra_pairs,rashi_pairs,yoga_pairs,karana_pairs,tithi_pairs,total_unordered_pairs,detected_directed_edits,total_directed_edits
+"Equal arcs, origin zero",2016,756,4104,2430,0,9306,44028,62640
+"Each of H20, H21 and equal arcs shifted by +0.1 degree",2349,1008,4257,2511,0,10125,45720,65970
