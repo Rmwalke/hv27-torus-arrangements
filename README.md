@@ -2,16 +2,20 @@
 
 Supplementary code and manuscript for **An Explicit GCD Evaluation for Three-Direction Torus Arrangements**, by **Rushikesh Murlidhar Walke**, Independent Researcher, Maharashtra, India.
 
-- **Published preprint:** [Zenodo, version v08, 6 November 2026](https://doi.org/10.5281/zenodo.24014501)
-- **Author ORCID:** [0009-0006-6749-5660](https://orcid.org/0009-0006-6749-5660)
-- **Read the PDF:** [HV27_Preprint_Review_v08.pdf](HV27_Preprint_Review_v08.pdf)
-- **All-versions DOI:** [10.5281/zenodo.24014500](https://doi.org/10.5281/zenodo.24014500)
+- [Read the v09 preprint and appendix on Zenodo](https://doi.org/10.5281/zenodo.24061769) (9 November 2026). Open `HV27_Appendix_Preprint.pdf` for the five-label counting result.
+- [Reproduce the v08 software checks](article/anc/README.txt) or [read the original v08 paper](HV27_Preprint_Review_v08.pdf).
+- [Independent reading guide · मराठी / English (one-page PDF)](HV27_v09_Review_Guide_MR_EN.pdf). Start with the boundary example on page 6 of the appendix. Sections 2 and 3 explain how faces correspond to five-label records and how to count valid one-step changes.
+- [Report a discrepancy or counterexample](https://github.com/Rmwalke/hv27-torus-arrangements/issues). Please include the version, page or section, the case you checked and the result you obtained.
+
+[Author ORCID](https://orcid.org/0009-0006-6749-5660) · [All Zenodo versions](https://doi.org/10.5281/zenodo.24014500)
 
 ## Scope
 
-The note gives an explicit gcd evaluation for three families of closed curves on a two-dimensional torus. It includes a finite-grid triple-intersection calculation, a cellularity argument and the passage from incidences to geometric faces. It is an explicit specialization of established toric-arrangement and arithmetic-Tutte theory, with a self-contained proof and parameterized example. It does not claim a new general chamber-counting theory.
+The v08 paper gives an explicit gcd evaluation for three families of closed curves on a two-dimensional torus. It includes a finite-grid triple-intersection calculation, a cellularity argument and the passage from incidences to geometric faces. It is an explicit specialization of established toric-arrangement and arithmetic-Tutte theory, with a self-contained proof and parameterized example. It does not claim a new general chamber-counting theory.
 
 Its relationship to the author's earlier cyclic-grid note is explained in the paper. That earlier work has DOI [10.5281/zenodo.23184983](https://doi.org/10.5281/zenodo.23184983); it is a separate publication.
+
+The v09 appendix studies realizable combinations of five labels and counts which single-label edits are detectable under its stated sampling rule. The code and 284 recorded checks in this repository cover the v08 implementation. Independent human review of the appendix is pending.
 
 ## Files
 
@@ -38,9 +42,9 @@ Finite checks support implementation consistency; they are not an all-input proo
 
 ## Publication and file provenance
 
-The PDF and all files under `article/` preserve the v08 preparation files byte-for-byte. New repository-level documentation is provided separately in this README, `CITATION.cff` and `LICENSE`.
+The original v08 PDF and all files under `article/` preserve the v08 preparation files byte-for-byte. The bilingual reading guide is a companion to the v09 appendix.
 
-Some preserved notices describe the earlier preparation stage: `article/LICENSE-CC-BY-4.0.txt` says that no HV27 public DOI had yet been assigned, and `article/anc/README.txt` does not claim a public submission. Those statements record the preparation stage and are superseded by the published preprint DOI **10.5281/zenodo.24014501**. The PDF retains its original “author-review copy v08” label. It remains a preprint; independent human peer review is not claimed.
+Some preserved notices describe the earlier preparation stage: `article/LICENSE-CC-BY-4.0.txt` says that no HV27 public DOI had yet been assigned, and `article/anc/README.txt` does not claim a public submission. Those statements record the preparation stage and are superseded by the published preprint DOI **10.5281/zenodo.24014501**. The v08 PDF retains its original “author-review copy v08” label. It remains a preprint; independent human peer review is not claimed.
 
 ## Author contribution and AI assistance
 
@@ -58,6 +62,6 @@ See [the licensing index](LICENSE), [CC BY notice](article/LICENSE-CC-BY-4.0.txt
 
 ## Cite the preprint
 
-Walke, Rushikesh Murlidhar. (2026). *An Explicit GCD Evaluation for Three-Direction Torus Arrangements* (Version v08). Zenodo. https://doi.org/10.5281/zenodo.24014501
+Walke, Rushikesh Murlidhar. (2026). *An Explicit GCD Evaluation for Three-Direction Torus Arrangements* (Version v09). Zenodo. https://doi.org/10.5281/zenodo.24061769
 
-Use the version DOI above when citing this particular release. [CITATION.cff](CITATION.cff) supplies the preferred article citation for GitHub's citation feature.
+[CITATION.cff](CITATION.cff) gives v09 as the preferred article citation. For a run of the original software, identify the software as v08 and cite the [v08 deposit](https://doi.org/10.5281/zenodo.24014501).
