@@ -10,6 +10,13 @@ Supplementary code and manuscript for **An Explicit GCD Evaluation for Three-Dir
 
 [Author ORCID](https://orcid.org/0009-0006-6749-5660) · [All Zenodo versions](https://doi.org/10.5281/zenodo.24014500)
 
+## Interactive companion
+
+Explore the v08 paper and v09 appendix with the H-v27 Torus Lab, an educational demonstration.
+
+- [English edition](https://hv27-torus-lab.rushikeshwalkehtc.chatgpt.site/english/)
+- [Trilingual edition (English, हिन्दी, मराठी)](https://hv27-torus-lab.rushikeshwalkehtc.chatgpt.site)
+
 ## Scope
 
 The v08 paper gives an explicit gcd evaluation for three families of closed curves on a two-dimensional torus. It includes a finite-grid triple-intersection calculation, a cellularity argument and the passage from incidences to geometric faces. It is an explicit specialization of established toric-arrangement and arithmetic-Tutte theory, with a self-contained proof and parameterized example. It does not claim a new general chamber-counting theory.
